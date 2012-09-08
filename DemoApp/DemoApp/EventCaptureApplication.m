@@ -10,4 +10,13 @@
 
 @implementation EventCaptureApplication
 
+- (void)sendEvent:(UIEvent*)event {
+    //handle the event (you will probably just reset a timer)
+
+    NSLog(@"Event: %@", event);
+    
+    [super sendEvent:event];
+}
+
+
 @end
