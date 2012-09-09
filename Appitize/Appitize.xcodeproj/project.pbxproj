@@ -30,6 +30,8 @@
 		664A269C14E3265400C297E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 664A269A14E3265400C297E6 /* InfoPlist.strings */; };
 		664A26A914E32C4100C297E6 /* SimpleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664A26A814E32C4100C297E6 /* SimpleView.xib */; };
 		66E8B6D714D899500074EAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8B6D614D899500074EAA4 /* Foundation.framework */; };
+		B29D1C5715FC454E004B656F /* ScreenRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = B29D1C5515FC454E004B656F /* ScreenRecorder.h */; };
+		B29D1C5815FC454E004B656F /* ScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B29D1C5615FC454E004B656F /* ScreenRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		664A26A814E32C4100C297E6 /* SimpleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleView.xib; sourceTree = "<group>"; };
 		66E8B6D314D899500074EAA4 /* libAppitize.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppitize.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E8B6D614D899500074EAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B29D1C5515FC454E004B656F /* ScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenRecorder.h; path = ../../DemoApp/DemoApp/ScreenRecorder.h; sourceTree = "<group>"; };
+		B29D1C5615FC454E004B656F /* ScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScreenRecorder.m; path = ../../DemoApp/DemoApp/ScreenRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		66E8B6D814D899500074EAA4 /* Appitize */ = {
 			isa = PBXGroup;
 			children = (
+				B29D1C5515FC454E004B656F /* ScreenRecorder.h */,
+				B29D1C5615FC454E004B656F /* ScreenRecorder.m */,
 				5DAFFF2B15FC287B0047124F /* Appitize-Prefix.pch */,
 				5DAFFF2C15FC287B0047124F /* Appitize.h */,
 				5DAFFF3715FC2B3D0047124F /* EventCaptureApplication.h */,
@@ -149,6 +155,7 @@
 			files = (
 				5DAFFF2E15FC287B0047124F /* Appitize.h in Headers */,
 				5DAFFF3915FC2B3D0047124F /* EventCaptureApplication.h in Headers */,
+				B29D1C5715FC454E004B656F /* ScreenRecorder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DAFFF3A15FC2B3D0047124F /* EventCaptureApplication.m in Sources */,
+				B29D1C5815FC454E004B656F /* ScreenRecorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
