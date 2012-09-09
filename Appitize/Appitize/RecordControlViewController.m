@@ -77,8 +77,16 @@
     return cell;
 }
 
+- (IBAction)closeButtonPress:(id)sender {
+    
+    [UIView animateWithDuration:0.5f animations:^{
+        self.view.alpha = 0.0f;
+    } completion:^(BOOL finished) {
+        [self.view removeFromSuperview];
+    }];
+}
 
-
-
-
+- (IBAction)startStopRecordButtonPress:(id)sender {
+    
+}
 @end
