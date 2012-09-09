@@ -33,7 +33,7 @@
 }
 - (IBAction)stopRecording:(id)sender {
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    [appDelegate.screenRecorder stopRecording];
+    [appDelegate.screenRecorder stopRecording:self.view];
 }
 
 

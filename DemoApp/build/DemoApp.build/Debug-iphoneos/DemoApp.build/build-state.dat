@@ -4,21 +4,20 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/Info.plist DemoApp/DemoApp-Info.plist
 cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/DemoApp.app/ResourceRules.plist
-cProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/ScreenRecorder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/SecondViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/EventCaptureApplication.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/EventCaptureApplication.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/FirstViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/SecondViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/ScreenRecorder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp normal armv7
 cGenerateDSYMFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app.dSYM /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp
-cCompileStoryboard /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/en.lproj/MainStoryboard.storyboard
-cCopyStringsFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/en.lproj/InfoPlist.strings DemoApp/en.lproj/InfoPlist.strings
-cCopyPNGFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first@2x.png DemoApp/first@2x.png
-cCopyPNGFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second@2x.png DemoApp/second@2x.png
 cCopyPNGFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first.png DemoApp/first.png
+cCompileStoryboard /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/en.lproj/MainStoryboard.storyboard
 cCopyPNGFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second.png DemoApp/second.png
+cCopyPNGFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first@2x.png DemoApp/first@2x.png
+cCopyStringsFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/en.lproj/InfoPlist.strings DemoApp/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second@2x.png DemoApp/second@2x.png
 cProcessProductPackaging "/Users/mattvv/Library/MobileDevice/Provisioning Profiles/AC9FF961-93F4-4AF5-85C3-35AEB41DFB1E.mobileprovision" /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision
 cProcessProductPackaging "/Users/mattvv/Library/MobileDevice/Provisioning Profiles/AC9FF961-93F4-4AF5-85C3-35AEB41DFB1E.mobileprovision" /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision
 cTouch /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app
@@ -45,6 +44,11 @@ c000000004FF1DA27000000000015B230
 t1341250087
 s1421872
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c000000004FF1DA270000000000019D60
+t1341250087
+s105824
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000004FF1DA2800000000003AE430
 t1341250088
@@ -70,6 +74,11 @@ c000000004FF1DA270000000000001534
 t1341250087
 s5428
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004FF1DA280000000000257F70
+t1341250088
+s2457456
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 c000000004FF1DA280000000000175AA0
 t1341250088
@@ -90,65 +99,20 @@ c000000004FF1DA290000000000001B57
 t1341250089
 s6999
 
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
-c00000000501B8C170000000000000132
-t1343982615
-s306
+N/Users/mattvv/Documents/Projects/hack/DemoApp/Appitize.framework/Appitize
+c00000000504C0D4C0000000000025B38
+t1347161420
+s154424
 
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
-c00000000501BFD080000000000000094
-t1344011528
-s148
+N/Users/mattvv/Documents/Projects/hack/DemoApp/Appitize.framework/Headers/Appitize.h
+c00000000504C0D4C00000000000000BD
+t1347161420
+s189
 
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
-c00000000501BFD080000000000000096
-t1344011528
-s150
-
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c00000000501BFD0F00000000001DBED0
-t1344011535
-s1949392
-
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000501BFD10000000000018F7C0
-t1344011536
-s1636288
-
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-c00000000501BFD110000000000101DB0
-t1344011537
-s1056176
-
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000501BFD130000000000314CF0
-t1344011539
-s3230960
-
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000501BFD1300000000000015F7
-t1344011539
-s5623
-
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000501BFD1600000000001AD470
-t1344011542
-s1758320
-
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c00000000501BFD190000000000000E8D
-t1344011545
-s3725
-
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000501BFD1900000000008D7F20
-t1344011545
-s9273120
-
-N/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
-c00000000501BFD2B0000000000001B54
-t1344011563
-s6996
+N/Users/mattvv/Documents/Projects/hack/DemoApp/Appitize.framework/Headers/EventCaptureApplication.h
+c00000000504C0D4C00000000000000ED
+t1347161420
+s237
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.h
 c00000000504BDC260000000000000174
@@ -156,8 +120,8 @@ t1347148838
 s372
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.m
-c00000000504BDC45000000000000082E
-t1347148869
+c00000000504C1A4B000000000000082E
+t1347164747
 s2094
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/DemoApp-Prefix.pch
@@ -168,35 +132,25 @@ i<Availability.h>
 i<UIKit/UIKit.h>
 i<Foundation/Foundation.h>
 
-N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/EventCaptureApplication.h
-c00000000504BE3E000000000000000EC
-t1347150816
-s236
-
-N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/EventCaptureApplication.m
-c00000000504BE3E00000000000000196
-t1347150816
-s406
-
 N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/FirstViewController.h
 c00000000504BDC5B0000000000000135
 t1347148891
 s309
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/FirstViewController.m
-c00000000504BDD45000000000000038D
-t1347149125
-s909
+c00000000504C295B0000000000000397
+t1347168603
+s919
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/ScreenRecorder.h
-c00000000504BF0410000000000000260
-t1347153985
-s608
+c00000000504C2C03000000000000031E
+t1347169283
+s798
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/ScreenRecorder.m
-c00000000504BF75C00000000000020EA
-t1347155804
-s8426
+c00000000504C2C090000000000002CFD
+t1347169289
+s11517
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/SecondViewController.h
 c00000000504BD79400000000000000E9
@@ -229,9 +183,9 @@ t1347147668
 s402
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/main.m
-c00000000504BE3E0000000000000016D
-t1347150816
-s365
+c00000000504C0D4C00000000000001CB
+t1347161420
+s459
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/second.png
 c00000000504BD7940000000000000080
@@ -244,106 +198,94 @@ t1347147668
 s130
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app
-t1347155741
+t1347168799
 s442
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app.dSYM
-t1347155741
+t1347168799
 s102
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp
-t1347155741
-s55248
+t1347168799
+s61584
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/Info.plist
-t1347151163
+t1347165138
 s1188
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/PkgInfo
-t1347151163
+t1347165138
 s8
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/ResourceRules.plist
-t1347151163
+t1347165138
 s485
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision
-t1347147962
+t1347165152
 s22908
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/en.lproj/InfoPlist.strings
-t1347147962
+t1347165151
 s42
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/en.lproj/MainStoryboard.storyboardc
-t1347151271
+t1347165152
 s204
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first.png
-t1347151164
+t1347165151
 s253
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first@2x.png
-t1347151164
+t1347165151
 s455
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second.png
-t1347151164
+t1347165151
 s128
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second@2x.png
-t1347151164
+t1347165151
 s130
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent
-t1347151271
+t1347165152
 s410
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.o
-t1347153987
-s82448
+t1347168604
+s82472
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/DemoApp.LinkFileList
-c00000000504BE4880000000000000325
-t1347150984
-s805
-
-N/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/EventCaptureApplication.o
-t1347151164
-s68540
+c00000000504C1BD20000000000000297
+t1347165138
+s663
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.o
-t1347153987
-s70564
+t1347168604
+s70680
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.o
-t1347155741
-s96600
+t1347168798
+s113724
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.o
-t1347151164
+t1347165138
 s63888
 
 N/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.o
-t1347153987
-s3600
+t1347168604
+s3912
 
 N/Users/mattvv/Library/MobileDevice/Provisioning Profiles/AC9FF961-93F4-4AF5-85C3-35AEB41DFB1E.mobileprovision
 c00000000503679CA000000000000597C
 t1345747402
 s22908
 
-N/var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-efbmatxpaqnkyvagajdangslvhyt/DemoApp-Prefix.pch.pth
-t1347147780
-s4781456
-
-N/var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch.pth
-t1347151163
+N/var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch.pth
+t1347165138
 s4029428
-
-N/var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-hcnnfkorvhxhawbvhmzshkiwoqkp/DemoApp-Prefix.pch.pth
-t2
-s0
 
 NDemoApp/DemoApp-Info.plist
 c00000000504BD7940000000000000598
@@ -351,9 +293,6 @@ t1347147668
 s1432
 
 CBuild AST from /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.m
-r0
-
-CBuild AST from /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/EventCaptureApplication.m
 r0
 
 CBuild AST from /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/FirstViewController.m
@@ -370,19 +309,19 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8464eddd2efcb541^0890eddd2efcb541^---0#1#0#--18"Check dependencies36"60A601B0-CB1B-4DD8-B3F3-D1F55A14D853-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc0b1178c63fcb541^e8da178c63fcb541^---0#1#0#--18"Check dependencies36"9383417E-CAF3-4465-9C3D-F6D288C1C56A-
 
 CCodeSign /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app
-s368848606.167233
-e368848606.281827
+s368862092.396993
+e368862092.510715
 r1
 xCodeSign
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"CodeSign build/Debug-iphoneos/DemoApp.appb5df2ade2efcb541^782648de2efcb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/0000000000000000^816"CodeSign build/Debug-iphoneos/DemoApp.app    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 0a125a7678dd15aff62a3b14b873eeab9c18980a --resource-rules=/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/ResourceRules.plist --entitlements /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app36"74425976-F054-4086-9240-E2147F95FDDF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"CodeSign build/Debug-iphoneos/DemoApp.appc5ae658c63fcb541^bebe828c63fcb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/0000000000000000^816"CodeSign build/Debug-iphoneos/DemoApp.app    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 0a125a7678dd15aff62a3b14b873eeab9c18980a --resource-rules=/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/ResourceRules.plist --entitlements /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app36"D90DBF22-68A8-4F7D-96BC-679ADCF3ACFA-
 
 CCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368846787.196992
-e368846787.284536
+s368862092.115755
+e368862092.247964
 r1
 xCompileC
 xbuild/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.o
@@ -391,24 +330,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.mfc8932c327fcb541^b2d648c327fcb541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.m0000000000000000^3258"CompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.o DemoApp/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.m -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.o36"093F35D7-74D6-4E19-A80C-F25989E49D4C-
-
-CCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/EventCaptureApplication.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/EventCaptureApplication.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368843963.988111
-e368843964.120145
-r1
-xCompileC
-xbuild/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/EventCaptureApplication.o
-x/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/EventCaptureApplication.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/EventCaptureApplication.m76a9fdbb1cfcb541^e3c11ebc1cfcb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/EventCaptureApplication.m0000000000000000^3330"CompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/EventCaptureApplication.o DemoApp/EventCaptureApplication.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/EventCaptureApplication.d --serialize-diagnostics /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/EventCaptureApplication.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/EventCaptureApplication.m -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/EventCaptureApplication.o36"7410D4B0-857C-4E02-A7FF-CCF41A1BCD6D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.ma8341e8c63fcb541^bb7c3f8c63fcb541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.m0000000000000000^3306"CompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.o DemoApp/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -F/Users/mattvv/Documents/Projects/hack/DemoApp -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/AppDelegate.m -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/AppDelegate.o36"78626142-3197-4E3B-80EA-10C826CC3D52-
 
 CCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/FirstViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368846787.197019
-e368846787.282704
+s368862092.116971
+e368862092.239887
 r1
 xCompileC
 xbuild/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.o
@@ -417,11 +343,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/FirstViewController.mb08f32c327fcb541^4a5f48c327fcb541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/FirstViewController.m0000000000000000^3306"CompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.o DemoApp/FirstViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.d --serialize-diagnostics /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/FirstViewController.m -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.o36"65CC805B-E40F-4CB2-8DC3-F08EA8396D6B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/FirstViewController.mf50f1e8c63fcb541^276a3d8c63fcb541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/FirstViewController.m0000000000000000^3354"CompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.o DemoApp/FirstViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -F/Users/mattvv/Documents/Projects/hack/DemoApp -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.d --serialize-diagnostics /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/FirstViewController.m -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/FirstViewController.o36"A9488C85-F848-4CB7-BBBA-17676B8EA7E8-
 
 CCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/ScreenRecorder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368848605.947229
-e368848606.043873
+s368862092.117162
+e368862092.274012
 r1
 xCompileC
 xbuild/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.o
@@ -430,11 +356,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/ScreenRecorder.mcc98f2dd2efcb541^8a3a0bde2efcb541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/ScreenRecorder.m0000000000000000^3276"CompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.o DemoApp/ScreenRecorder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.d --serialize-diagnostics /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/ScreenRecorder.m -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.o36"9C40265E-E60D-488B-AB36-1EC030876A6D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/ScreenRecorder.mde1c1e8c63fcb541^4e26468c63fcb541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/ScreenRecorder.m0000000000000000^3324"CompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.o DemoApp/ScreenRecorder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -F/Users/mattvv/Documents/Projects/hack/DemoApp -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.d --serialize-diagnostics /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/ScreenRecorder.m -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/ScreenRecorder.o36"4B808C31-9AF3-4BC5-96D9-CDC9885DA8C4-
 
 CCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/SecondViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368843963.988131
-e368843964.119375
+s368857938.861711
+e368857938.919290
 r1
 xCompileC
 xbuild/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.o
@@ -443,11 +369,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/SecondViewController.m8193fdbb1cfcb541^718e1ebc1cfcb541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/SecondViewController.m0000000000000000^3312"CompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.o DemoApp/SecondViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.d --serialize-diagnostics /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/SecondViewController.m -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.o36"C329ECC0-CD47-40CB-B78A-98C46E4678C0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/SecondViewController.m18b0dc5253fcb541^68cdeb5253fcb541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/SecondViewController.m0000000000000000^3360"CompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.o DemoApp/SecondViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -F/Users/mattvv/Documents/Projects/hack/DemoApp -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.d --serialize-diagnostics /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/SecondViewController.m -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/SecondViewController.o36"DEE65E81-2522-4E5B-A3A7-EFB27152F5D6-
 
 CCompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.o /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368846787.196975
-e368846787.250694
+s368862092.115275
+e368862092.202280
 r1
 xCompileC
 xbuild/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.o
@@ -456,180 +382,140 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/main.me78e32c327fcb541^293c40c327fcb541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/main.m0000000000000000^3216"CompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.o DemoApp/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/main.m -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.o36"000F4463-1ED5-4611-8D23-CBC4BD210F97-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/main.m22341e8c63fcb541^7dd0338c63fcb541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/main.m0000000000000000^3264"CompileC build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.o DemoApp/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -F/Users/mattvv/Documents/Projects/hack/DemoApp -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/main.m -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/main.o36"4926BAD8-5E99-4445-8C58-FDABCF8DD14D-
 
 CCompileStoryboard /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/en.lproj/MainStoryboard.storyboard
-s368844070.557628
-e368844071.287601
+s368857951.752200
+e368857952.418535
 r1
 xCompileStoryboard
 x/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/en.lproj/MainStoryboard.storyboard
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"CompileStoryboard DemoApp/en.lproj/MainStoryboard.storyboard94db8e261dfcb541^cfa049271dfcb541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/en.lproj/MainStoryboard.storyboard0000000000000000^892"CompileStoryboard DemoApp/en.lproj/MainStoryboard.storyboard    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/en.lproj/MainStoryboard.storyboardc /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"D3FCE062-1874-4F31-8BAE-D2B04E1C50CF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"CompileStoryboard DemoApp/en.lproj/MainStoryboard.storyboard98a2c05f53fcb541^18266b6053fcb541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/en.lproj/MainStoryboard.storyboard0000000000000000^892"CompileStoryboard DemoApp/en.lproj/MainStoryboard.storyboard    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/en.lproj/MainStoryboard.storyboardc /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"36941AC0-09AB-42C7-9565-FA03436FC578-
 
 CCopyPNGFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first.png DemoApp/first.png
-s368843964.371140
-e368843964.421783
+s368857951.752150
+e368857951.781686
 r1
 xCopyPNGFile
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first.png
 xDemoApp/first.png
 olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CopyPNGFile build/Debug-iphoneos/DemoApp.app/first.png DemoApp/first.pnge0bc60bc1cfcb541^da046cbc1cfcb541^-142"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.-0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/first.png0000000000000000^662"CopyPNGFile build/Debug-iphoneos/DemoApp.app/first.png DemoApp/first.png    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/first.png /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first.png36"6C35CC5E-B538-4270-A0EE-F7247164023A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CopyPNGFile build/Debug-iphoneos/DemoApp.app/first.png DemoApp/first.png739fc05f53fcb541^3c30c85f53fcb541^-142"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.-0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/first.png0000000000000000^662"CopyPNGFile build/Debug-iphoneos/DemoApp.app/first.png DemoApp/first.png    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/first.png /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first.png36"26D1F4FD-56EE-41FA-8382-93F1FC4D0CC0-
 
 CCopyPNGFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first@2x.png DemoApp/first@2x.png
-s368843964.371155
-e368843964.421004
+s368857951.752209
+e368857951.783939
 r1
 xCopyPNGFile
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first@2x.png
 xDemoApp/first@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"CopyPNGFile build/Debug-iphoneos/DemoApp.app/first@2x.png DemoApp/first@2x.pngf6b360bc1cfcb541^f7c76bbc1cfcb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/first@2x.png0000000000000000^682"CopyPNGFile "build/Debug-iphoneos/DemoApp.app/first@2x.png" "DemoApp/first@2x.png"    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/first@2x.png" "/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first@2x.png"36"1D0BC9CB-9FE7-4B89-946B-4A306B4B581C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"CopyPNGFile build/Debug-iphoneos/DemoApp.app/first@2x.png DemoApp/first@2x.png65a6c05f53fcb541^afb0c85f53fcb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/first@2x.png0000000000000000^682"CopyPNGFile "build/Debug-iphoneos/DemoApp.app/first@2x.png" "DemoApp/first@2x.png"    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/first@2x.png" "/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/first@2x.png"36"86CEB972-9E06-4747-8D00-F0D8CE8D9C0F-
 
 CCopyPNGFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second.png DemoApp/second.png
-s368843964.371167
-e368843964.421745
+s368857951.752228
+e368857951.781683
 r1
 xCopyPNGFile
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second.png
 xDemoApp/second.png
 olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CopyPNGFile build/Debug-iphoneos/DemoApp.app/second.png DemoApp/second.pngb3b760bc1cfcb541^9f026cbc1cfcb541^-142"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.-0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/second.png0000000000000000^666"CopyPNGFile build/Debug-iphoneos/DemoApp.app/second.png DemoApp/second.png    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/second.png /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second.png36"CC27CFAE-9182-4152-8E4C-7E63C002C16D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CopyPNGFile build/Debug-iphoneos/DemoApp.app/second.png DemoApp/second.pngb1a4c05f53fcb541^402fc85f53fcb541^-142"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.-0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/second.png0000000000000000^666"CopyPNGFile build/Debug-iphoneos/DemoApp.app/second.png DemoApp/second.png    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/second.png /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second.png36"D51EBEDF-C4F3-458D-A3DC-5FB93F7FD94B-
 
 CCopyPNGFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second@2x.png DemoApp/second@2x.png
-s368843964.371467
-e368843964.421889
+s368857951.752247
+e368857951.781678
 r1
 xCopyPNGFile
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second@2x.png
 xDemoApp/second@2x.png
 olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/Debug-iphoneos/DemoApp.app/second@2x.png DemoApp/second@2x.png211e61bc1cfcb541^7d066cbc1cfcb541^-142"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.-0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/second@2x.png0000000000000000^686"CopyPNGFile "build/Debug-iphoneos/DemoApp.app/second@2x.png" "DemoApp/second@2x.png"    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/second@2x.png" "/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second@2x.png"36"074E6893-5B71-4BB5-B39C-98B157FA2875-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/Debug-iphoneos/DemoApp.app/second@2x.png DemoApp/second@2x.pngeca6c05f53fcb541^382dc85f53fcb541^-142"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.-0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/second@2x.png0000000000000000^686"CopyPNGFile "build/Debug-iphoneos/DemoApp.app/second@2x.png" "DemoApp/second@2x.png"    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/second@2x.png" "/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/second@2x.png"36"2931C465-B20B-4027-A8A0-6D39DCA70BE6-
 
 CCopyStringsFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/en.lproj/InfoPlist.strings DemoApp/en.lproj/InfoPlist.strings
-s368840762.233928
-e368840762.236226
+s368857951.752178
+e368857951.756920
 r1
 xCopyStringsFile
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/en.lproj/InfoPlist.strings
 xDemoApp/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy DemoApp/en.lproj/InfoPlist.strings73f53b3a10fcb541^c4793c3a10fcb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/en.lproj/InfoPlist.strings0000000000000000^580"CopyStringsFile build/Debug-iphoneos/DemoApp.app/en.lproj/InfoPlist.strings DemoApp/en.lproj/InfoPlist.strings    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP4.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/en.lproj -- DemoApp/en.lproj/InfoPlist.strings36"52B35B4C-4A0B-4209-A42A-FF2574684863-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy DemoApp/en.lproj/InfoPlist.strings09a4c05f53fcb541^c5c5c15f53fcb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/en.lproj/InfoPlist.strings0000000000000000^568"CopyStringsFile build/Debug-iphoneos/DemoApp.app/en.lproj/InfoPlist.strings DemoApp/en.lproj/InfoPlist.strings    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/en.lproj -- DemoApp/en.lproj/InfoPlist.strings36"BEF22D4A-C956-4FA0-A226-C4B578B0BCA7-
 
 CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/DemoApp.app/ResourceRules.plist
-s368843963.647379
-e368843963.651618
+s368857938.656895
+e368857938.659486
 r1
 xCpResource
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
 xbuild/Debug-iphoneos/DemoApp.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/DemoApp.app/ResourceRules.plist18e9a5bb1cfcb541^96eaa6bb1cfcb541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/ResourceRules.plist0000000000000000^740"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/DemoApp.app/ResourceRules.plist    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app36"9AD9156B-950B-4EC5-993E-9B25F20C748E-
-
-CCpResource /Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/DemoApp.app/ResourceRules.plist
-s368840580.051434
-e368840580.054896
-r1
-xCpResource
-x/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
-xbuild/Debug-iphoneos/DemoApp.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/DemoApp.app/ResourceRules.plista54d0d840ffcb541^07270e840ffcb541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/ResourceRules.plist000000000080d041^764"CpResource /Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/DemoApp.app/ResourceRules.plist    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP4.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app36"4FA8F852-E7E5-4FC3-8E1C-F88032F34640-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/DemoApp.app/ResourceRules.plistb43ba85253fcb541^13d4a85253fcb541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/ResourceRules.plist000000000080d041^740"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/DemoApp.app/ResourceRules.plist    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app36"68C64E11-C3AD-4531-90EA-A43A588C45C5-
 
 CGenerateDSYMFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app.dSYM /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp
-s368848606.090157
-e368848606.114702
+s368862092.310264
+e368862092.333176
 r1
 xGenerateDSYMFile
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app.dSYM
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Generating /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app.dSYM892717de2efcb541^c45d1dde2efcb541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app.dSYM/0000000000000000^611"GenerateDSYMFile build/Debug-iphoneos/DemoApp.app.dSYM build/Debug-iphoneos/DemoApp.app/DemoApp    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app.dSYM36"40064ABC-6644-4CFB-91B7-AB3A0495EA8C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Generating /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app.dSYM0b7e4f8c63fcb541^6a4b558c63fcb541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app.dSYM/0000000000000000^611"GenerateDSYMFile build/Debug-iphoneos/DemoApp.app.dSYM build/Debug-iphoneos/DemoApp.app/DemoApp    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app.dSYM36"0662560E-3D7E-46CE-B31D-5713EDC86D6C-
 
 CLd /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp normal armv7
-s368848606.050220
-e368848606.074108
+s368862092.280814
+e368862092.303964
 r1
 xLd
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp
 xnormal
 xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Link /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp7cee0cde2efcb541^66f912de2efcb541^---0#0#0#--1157"Ld build/Debug-iphoneos/DemoApp.app/DemoApp normal armv7    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -filelist /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/DemoApp.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.1 -framework CoreVideo -framework CoreMedia -framework AVFoundation -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp36"4A461F43-F0FC-4F9F-9F9A-50E4E4C90DF8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Link /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoAppf1f3478c63fcb541^74d04d8c63fcb541^---0#0#0#--1273"Ld build/Debug-iphoneos/DemoApp.app/DemoApp normal armv7    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -F/Users/mattvv/Documents/Projects/hack/DemoApp -filelist /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/Objects-normal/armv7/DemoApp.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.1 -framework MediaPlayer -framework AssetsLibrary -framework CoreVideo -framework CoreMedia -framework AVFoundation -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -framework Appitize -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/DemoApp36"0725B980-D3D6-4D1A-9DC2-743C25A68324-
 
 CProcessInfoPlistFile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/Info.plist DemoApp/DemoApp-Info.plist
-s368843963.647385
-e368843963.651451
+s368857938.656890
+e368857938.661178
 r1
 xProcessInfoPlistFile
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/Info.plist
 xDemoApp/DemoApp-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process DemoApp/DemoApp-Info.pliste6e8a5bb1cfcb541^ebe6a6bb1cfcb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/DemoApp-Info.plist0000000000000000^754"ProcessInfoPlistFile build/Debug-iphoneos/DemoApp.app/Info.plist DemoApp/DemoApp-Info.plist    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DemoApp/DemoApp-Info.plist -genpkginfo /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/ResourceRules.plist -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/Info.plist36"747D8114-F2E9-4F0E-A0C7-7398DB29E28D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process DemoApp/DemoApp-Info.plistb43ba85253fcb541^3943a95253fcb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/DemoApp-Info.plist0000000000000000^754"ProcessInfoPlistFile build/Debug-iphoneos/DemoApp.app/Info.plist DemoApp/DemoApp-Info.plist    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DemoApp/DemoApp-Info.plist -genpkginfo /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/ResourceRules.plist -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/Info.plist36"0018ED3F-94C4-415B-A914-A339D38766D4-
 
-CProcessPCH /Users/mattvv/Library/Developer/Xcode/DerivedData/DemoApp-dtgjxnqmlsneecaimuurvzholsgf/Index/PrecompiledHeaders/DemoApp-Prefix-bqpsradvbjbcfecanfgcdsdounft_ast/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+CProcessPCH /Users/mattvv/Library/Developer/Xcode/DerivedData/DemoApp-dtgjxnqmlsneecaimuurvzholsgf/Index/PrecompiledHeaders/DemoApp-Prefix-eekmkhkecncsjafyorwdyuehdgmk_ast/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessPCH /Users/mattvv/Library/Developer/Xcode/DerivedData/DemoApp-dtgjxnqmlsneecaimuurvzholsgf/Index/PrecompiledHeaders/DemoApp-Prefix-dmofylayhiawbxaeepmieemovrcc_ast/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/mattvv/Library/Developer/Xcode/DerivedData/DemoApp-dtgjxnqmlsneecaimuurvzholsgf/Index/PrecompiledHeaders/DemoApp-Prefix-gouywuwxmxvnnyabjvjmxmpcrttn_ast/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-efbmatxpaqnkyvagajdangslvhyt/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368840580.063503
-e368840580.299830
+CProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368857938.668965
+e368857938.855491
 r1
 xProcessPCH
-x/var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-efbmatxpaqnkyvagajdangslvhyt/DemoApp-Prefix.pch.pth
+x/var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch.pth
 xDemoApp/DemoApp-Prefix.pch
 xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile DemoApp/DemoApp-Prefix.pch105910840ffcb541^62d84d840ffcb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/DemoApp-Prefix.pch0000000000000000^3487"ProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-efbmatxpaqnkyvagajdangslvhyt/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP4.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode45-DP4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode45-DP4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos --serialize-diagnostics /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-efbmatxpaqnkyvagajdangslvhyt/DemoApp-Prefix.pch.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/DemoApp-Prefix.pch -o /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-efbmatxpaqnkyvagajdangslvhyt/DemoApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-efbmatxpaqnkyvagajdangslvhyt/DemoApp-Prefix.pch.d36"6A9D852C-DD51-4823-87E5-40D57A85356D-
-
-CProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368843963.662665
-e368843963.978514
-r1
-xProcessPCH
-x/var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch.pth
-xDemoApp/DemoApp-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile DemoApp/DemoApp-Prefix.pch96e7a9bb1cfcb541^f3adfbbb1cfcb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/DemoApp-Prefix.pch0000000000000000^3277"ProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos --serialize-diagnostics /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/DemoApp-Prefix.pch -o /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-gihajzlimdiuuahbefmatgqswbbx/DemoApp-Prefix.pch.d36"DBBFEEB8-D439-4A83-B706-E199442D1654-
-
-CProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-hcnnfkorvhxhawbvhmzshkiwoqkp/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile DemoApp/DemoApp-Prefix.pch5ea0ac5253fcb541^f1d6dd5253fcb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/DemoApp-Prefix.pch0000000000000000^3325"ProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch.pth DemoApp/DemoApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-generated-files.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-own-target-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-all-target-headers.hmap -iquote /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp-project-headers.hmap -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources/armv7 -I/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DerivedSources -F/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos -F/Users/mattvv/Documents/Projects/hack/DemoApp --serialize-diagnostics /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch.dia -c /Users/mattvv/Documents/Projects/hack/DemoApp/DemoApp/DemoApp-Prefix.pch -o /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoApp-Prefix-aujoqdstcpesuagnhqmppongykzv/DemoApp-Prefix.pch.d36"F6C90A1B-0BAE-43F1-A20D-E35F09357DF3-
 
 CProcessProductPackaging "/Users/mattvv/Library/MobileDevice/Provisioning Profiles/AC9FF961-93F4-4AF5-85C3-35AEB41DFB1E.mobileprovision" /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision
-s368840762.923723
-e368840762.925987
+s368857952.438223
+e368857952.441262
 r1
 xProcessProductPackaging
 x/Users/mattvv/Library/MobileDevice/Provisioning Profiles/AC9FF961-93F4-4AF5-85C3-35AEB41DFB1E.mobileprovision
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"ProcessProductPackaging "/Users/mattvv/Library/MobileDevice/Provisioning Profiles/AC9FF961-93F4-4AF5-85C3-35AEB41DFB1E.mobileprovision" build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision1a89ec3a10fcb541^6b0ded3a10fcb541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision0000000000000000^702"ProcessProductPackaging "/Users/mattvv/Library/MobileDevice/Provisioning Profiles/AC9FF961-93F4-4AF5-85C3-35AEB41DFB1E.mobileprovision" build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP4.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/mattvv/Library/MobileDevice/Provisioning Profiles/AC9FF961-93F4-4AF5-85C3-35AEB41DFB1E.mobileprovision" -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision36"AFE2C293-A8A4-4FD1-AFFF-53C5999DCDAE-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"ProcessProductPackaging "/Users/mattvv/Library/MobileDevice/Provisioning Profiles/AC9FF961-93F4-4AF5-85C3-35AEB41DFB1E.mobileprovision" build/Debug-iphoneos/DemoApp.app/embedded.mobileprovisiona243706053fcb541^2bf9706053fcb541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision0000000000000000^690"ProcessProductPackaging "/Users/mattvv/Library/MobileDevice/Provisioning Profiles/AC9FF961-93F4-4AF5-85C3-35AEB41DFB1E.mobileprovision" build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/mattvv/Library/MobileDevice/Provisioning Profiles/AC9FF961-93F4-4AF5-85C3-35AEB41DFB1E.mobileprovision" -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app/embedded.mobileprovision36"F6AF8DED-F159-451A-91D8-40C6E300AFCE-
 
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent
-s368844071.328113
-e368844071.336584
+s368857952.462917
+e368857952.466155
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection207"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcentd76c55271dfcb541^f52a56271dfcb541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent0000000000000000^744"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent36"B4F9B31B-32C1-4956-B7C1-0FEC004865C4-
-
-CProcessProductPackaging /Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent
-s368840762.947446
-e368840762.950257
-r1
-xProcessProductPackaging
-x/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
-x/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection213"ProcessProductPackaging /Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent3ca2f23a10fcb541^5f44f33a10fcb541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent000000000080d041^768"ProcessProductPackaging /Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP4.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode45-DP4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent36"34EDD0A2-7F8C-486C-8E82-6EBA434A5EE8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection207"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcente19b766053fcb541^7a55776053fcb541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent000000000080d041^744"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/mattvv/Documents/Projects/hack/DemoApp/build/DemoApp.build/Debug-iphoneos/DemoApp.build/DemoApp.xcent36"7778D9DD-602D-4F43-A391-62CF63388933-
 
 CTouch /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app
-s368848606.146286
-e368848606.151109
+s368862092.364141
+e368862092.369322
 r1
 xTouch
 x/Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Touch /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app307f25de2efcb541^cdaf26de2efcb541^---0#0#0#--381"Touch build/Debug-iphoneos/DemoApp.app    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app36"F620E7A3-7455-47FD-96D6-1505F1D000CC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Touch /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.appaf435d8c63fcb541^268c5e8c63fcb541^---0#0#0#--381"Touch build/Debug-iphoneos/DemoApp.app    cd /Users/mattvv/Documents/Projects/hack/DemoApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mattvv/Documents/Projects/hack/DemoApp/build/Debug-iphoneos/DemoApp.app36"B5895A87-89E3-4AAC-BDEA-B53F7D50AD30-
 

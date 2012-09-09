@@ -9,7 +9,7 @@
 #import "ScreenRecorder.h"
 #import <QuartzCore/QuartzCore.h>
 #import <CoreVideo/CoreVideo.h>
-#import <UIKit/UIKit.h>
+#import <AssetsLibrary/AssetsLibrary.h>
 
 #define DOCUMENTS_FOLDER [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"]
 
@@ -20,13 +20,17 @@
 @synthesize adaptor;
 @synthesize timer;
 @synthesize time;
+@synthesize fileURL;
+@synthesize mMPVC;
 
 BOOL recording = NO;
 
 - (void)startRecording {
     time = 0;
     if (recording)
-        [self stopRecording];
+        [self stopRecording:nil];
+    
+    recording = YES;
     
     [self initCapture];
     [videoWriter startWriting];
@@ -35,7 +39,7 @@ BOOL recording = NO;
     
     //convert uiimage to CGImage.
     //use 0.003 after i perfect
-    timer = [NSTimer scheduledTimerWithTimeInterval:0.03
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.06
                                      target:self
                                    selector:@selector(addImage)
                                    userInfo:nil
@@ -44,36 +48,94 @@ BOOL recording = NO;
 }
 
 - (void)addImage {
+    while (!adaptor.assetWriterInput.readyForMoreMediaData) {
+        NSDate *maxDate = [NSDate dateWithTimeIntervalSinceNow:0.01];
+        [[NSRunLoop currentRunLoop] runUntilDate:maxDate];
+    }
     CVPixelBufferRef buffer = NULL;
     buffer = [self pixelBufferFromCGImage:[[self getCurrentImage] CGImage]];
     [adaptor appendPixelBuffer:buffer withPresentationTime:CMTimeMake(time, 600)];
-    time += 30; //todo: calculate this per interval
+    time += 15; //todo: calculate this per interval
 }
 
-- (void)stopRecording {
+- (void)stopRecording: (UIView *)view {
     if (!recording)
         return;
     
+    //todo UIActivity Indicator
+    
     recording = NO;
     [timer invalidate];
-    [writerInput markAsFinished];
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [writerInput markAsFinished];
         [videoWriter finishWriting];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self saveToPhotoAlbumn: view];
+        });
+        
     });
+}
+
+- (void)saveToPhotoAlbumn:(UIView*) view {
+    ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
+    NSURL *outputURL = [NSURL URLWithString:fileURL];
+    if ([library videoAtPathIsCompatibleWithSavedPhotosAlbum:outputURL]) {
+        [library writeVideoAtPathToSavedPhotosAlbum:outputURL completionBlock:^(NSURL *assetURL, NSError *error){
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (error) {
+                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Video Saving Failed"
+                                                                   delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                    [alert show];
+                } else {
+                    if (view == nil)
+                        return;
+                    mMPVC = [[MPMoviePlayerViewController alloc] initWithContentURL:assetURL];
+                    
+                    [mMPVC.moviePlayer setControlStyle:MPMovieControlStyleFullscreen];
+                    [mMPVC.moviePlayer setScalingMode:MPMovieScalingModeAspectFill];
+                    
+                    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlaybackComplete:)
+                                                                 name:MPMoviePlayerPlaybackDidFinishNotification
+                                                               object:mMPVC.moviePlayer];
+                    
+                    UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
+                    [mMPVC.view setFrame:keyWindow.bounds];
+                    
+                    [view addSubview:mMPVC.view];
+                    [mMPVC.moviePlayer play];
+
+//                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Video Saved" message:@"Saved To Photo Album"
+//                                                                   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+//                    [alert show];
+                }
+            });
+        }];
+    }
+}
+
+- (void)moviePlaybackComplete:(NSNotification *)notification
+{
+    [mMPVC.moviePlayer stop];
+    [mMPVC.moviePlayer.view removeFromSuperview];
+    [[NSNotificationCenter defaultCenter] removeObserver:self
+                                                    name:MPMoviePlayerPlaybackDidFinishNotification
+                                                  object:mMPVC.moviePlayer];
 }
 
 - (void)initCapture {
     UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
 	
     //todo: timestamp
-    NSString* recorderFilePath = [NSString stringWithFormat:@"%@/%@.mov", DOCUMENTS_FOLDER, @"recording13"];
-    if ([[NSFileManager defaultManager] fileExistsAtPath:recorderFilePath])
-        [[NSFileManager defaultManager] removeItemAtPath:recorderFilePath error:nil];
+    NSString * timestamp = [NSString stringWithFormat:@"%d", (int)[[NSDate date] timeIntervalSince1970]];
+    NSLog(@"%@", timestamp);
+    fileURL = [NSString stringWithFormat:@"%@/%@.mov", DOCUMENTS_FOLDER, timestamp];
+    if ([[NSFileManager defaultManager] fileExistsAtPath:fileURL])
+        [[NSFileManager defaultManager] removeItemAtPath:fileURL error:nil];
     
     NSError *error = nil;
     videoWriter = [[AVAssetWriter alloc] initWithURL:
-                                  [NSURL fileURLWithPath:recorderFilePath] fileType:AVFileTypeQuickTimeMovie
+                                  [NSURL fileURLWithPath:fileURL] fileType:AVFileTypeQuickTimeMovie
                                                               error:&error];
     NSParameterAssert(videoWriter);
     
@@ -92,7 +154,8 @@ BOOL recording = NO;
     NSParameterAssert(writerInput);
     NSParameterAssert([videoWriter canAddInput:writerInput]);
     [videoWriter addInput:writerInput];
-}
+    
+   }
 
 
 - (UIImage *)getCurrentImage {
