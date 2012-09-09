@@ -21,7 +21,7 @@
 @property (nonatomic, retain) NSDate* startTime;
 
 - (void)startRecording;
-- (void)stopRecording:(UIView*)view;
+- (void)stopRecording;
 - (void)addImage;
 
 @end
