@@ -26,7 +26,7 @@
 //+ (NSBundle *)frameworkBundle;
 - (void) showRecordingControlViewController;
 - (void) addTouchOverlayForEvent:(UIEvent*)event;
-- (IBAction)handleStopRecordingSwipe:(UIGestureRecognizer *) sender;
+- (IBAction)handleStopRecordingGesture:(UIGestureRecognizer *) sender;
 
 @end
 
@@ -117,25 +117,23 @@
 
 - (void) addTouchOverlayForEvent:(UIEvent*)event
 {
-    
     UITouch *touch = [event.allTouches anyObject];
 
     if (self.viewController == nil)
     {
         [self showRecordingControlViewController];
 
-        UITapGestureRecognizer *stopRecordingSwipe = [[UITapGestureRecognizer alloc]
-                                                        initWithTarget:self action:@selector(handleStopRecordingSwipe:)];
-        stopRecordingSwipe.numberOfTapsRequired = 2;
-        stopRecordingSwipe.numberOfTouchesRequired = 1;
-        stopRecordingSwipe.enabled = YES;
+        UITapGestureRecognizer *stopRecordingGesture = [[UITapGestureRecognizer alloc]
+                                                        initWithTarget:self action:@selector(handleStopRecordingGesture:)];
+        stopRecordingGesture.numberOfTapsRequired = 2;
+        stopRecordingGesture.numberOfTouchesRequired = 1;
+        stopRecordingGesture.enabled = YES;
         id<UIApplicationDelegate> myDelegate = [UIApplication sharedApplication].delegate;
         UIWindow *window = myDelegate.window;
-        [window addGestureRecognizer:stopRecordingSwipe];
+        [window addGestureRecognizer:stopRecordingGesture];
 
     }
 
-    
     if (touch.phase == UITouchPhaseBegan)
     {
         UIImage *touchDownImage = [UIImage imageWithContentsOfFile:[[[self class] frameworkBundle] pathForResource:@"finger_press1" ofType:@"png"]];
@@ -204,7 +202,7 @@
     return frameworkBundle;
 }
 
-- (IBAction)handleStopRecordingSwipe:(UIGestureRecognizer *) sender
+- (IBAction)handleStopRecordingGesture:(UIGestureRecognizer *) sender
 {
     NSLog(@"handleStopRecordingSwipe...");
     // Make this prettier ... someday
@@ -213,6 +211,16 @@
         [self.viewController.recorder stopRecording];
     }
     [self showRecordingControlViewController];
+}
+
+#pragma mark - Add Video 
+
+- (void) addVideo: (Video*) newVideo
+{
+    [lastVideos insertObject:newVideo atIndex:0];
+    // Hack!!
+    [self.viewController.recentTableView reloadData];
+    
 }
 
 @end

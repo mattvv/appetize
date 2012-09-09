@@ -84,6 +84,7 @@
 }
 
 - (void)saveToPhotoAlbumn {
+    NSLog(@"saveToPhotoAlbum: Start");
     ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
     NSURL *outputURL = [NSURL URLWithString:fileURL];
     if ([library videoAtPathIsCompatibleWithSavedPhotosAlbum:outputURL]) {
@@ -94,6 +95,7 @@
                                                                    delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
                     [alert show];
                 } else {
+                    NSLog(@"saveToPhotoAlbum: Done Saving to Library");
                     NSDate *endTime = [NSDate date];
                     NSTimeInterval length = [endTime timeIntervalSinceDate:startTime];
                     
@@ -115,7 +117,7 @@
                     video.name = [format stringFromDate:startTime];
                     
                     Appitize *appitize = [Appitize sharedEngine];
-                    [appitize.lastVideos addObject:video];
+                    [appitize addVideo:video];
                     //todo: show start view
                 }
             });
