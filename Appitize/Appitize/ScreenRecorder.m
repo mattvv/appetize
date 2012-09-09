@@ -61,7 +61,7 @@
     CVPixelBufferRef buffer = NULL;
     buffer = [self pixelBufferFromCGImage:[[self getCurrentImage] CGImage]];
     [adaptor appendPixelBuffer:buffer withPresentationTime:CMTimeMake(time, 600)];
-    time += 30; //todo: calculate this per interval
+    time += 38; //todo: calculate this per interval
 }
 
 - (void)stopRecording {
