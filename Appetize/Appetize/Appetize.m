@@ -134,7 +134,7 @@
 
     }
 
-    if (touch.phase == UITouchPhaseBegan)
+    if (touch.phase == UITouchPhaseBegan && self.recorder.recording)
     {
         UIImage *touchDownImage = [UIImage imageWithContentsOfFile:[[[self class] frameworkBundle] pathForResource:@"finger_press1" ofType:@"png"]];
         UIImage *touchRipple1Image = [UIImage imageWithContentsOfFile:[[[self class] frameworkBundle] pathForResource:@"finger_press2" ofType:@"png"]];
