@@ -25,6 +25,10 @@
 		5D72335015FC016B00697D97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72332615FC016A00697D97 /* Foundation.framework */; };
 		5D72335815FC016B00697D97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D72335615FC016B00697D97 /* InfoPlist.strings */; };
 		5D72335B15FC016B00697D97 /* DemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72335A15FC016B00697D97 /* DemoAppTests.m */; };
+		B2434C8615FC0F4200613FDF /* ScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B2434C8515FC0F4200613FDF /* ScreenRecorder.m */; };
+		B2434C8915FC0FC000613FDF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2434C8815FC0FC000613FDF /* QuartzCore.framework */; };
+		B2434C8B15FC0FEB00613FDF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2434C8A15FC0FEB00613FDF /* AVFoundation.framework */; };
+		B2434C8D15FC152400613FDF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2434C8C15FC152400613FDF /* CoreMedia.framework */; };
 		5D72336C15FC0D3B00697D97 /* EventCaptureApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72336B15FC0D3B00697D97 /* EventCaptureApplication.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +68,11 @@
 		5D72335715FC016B00697D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D72335915FC016B00697D97 /* DemoAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppTests.h; sourceTree = "<group>"; };
 		5D72335A15FC016B00697D97 /* DemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppTests.m; sourceTree = "<group>"; };
+		B2434C8415FC0F4200613FDF /* ScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenRecorder.h; sourceTree = "<group>"; };
+		B2434C8515FC0F4200613FDF /* ScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenRecorder.m; sourceTree = "<group>"; };
+		B2434C8815FC0FC000613FDF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B2434C8A15FC0FEB00613FDF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B2434C8C15FC152400613FDF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		5D72336A15FC0D3B00697D97 /* EventCaptureApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCaptureApplication.h; sourceTree = "<group>"; };
 		5D72336B15FC0D3B00697D97 /* EventCaptureApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCaptureApplication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2434C8D15FC152400613FDF /* CoreMedia.framework in Frameworks */,
+				B2434C8B15FC0FEB00613FDF /* AVFoundation.framework in Frameworks */,
+				B2434C8915FC0FC000613FDF /* QuartzCore.framework in Frameworks */,
 				5D72332515FC016A00697D97 /* UIKit.framework in Frameworks */,
 				5D72332715FC016A00697D97 /* Foundation.framework in Frameworks */,
 				5D72332915FC016A00697D97 /* CoreGraphics.framework in Frameworks */,
@@ -114,6 +126,9 @@
 		5D72332315FC016A00697D97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2434C8C15FC152400613FDF /* CoreMedia.framework */,
+				B2434C8A15FC0FEB00613FDF /* AVFoundation.framework */,
+				B2434C8815FC0FC000613FDF /* QuartzCore.framework */,
 				5D72332415FC016A00697D97 /* UIKit.framework */,
 				5D72332615FC016A00697D97 /* Foundation.framework */,
 				5D72332815FC016A00697D97 /* CoreGraphics.framework */,
@@ -137,6 +152,8 @@
 				5D72334315FC016B00697D97 /* second.png */,
 				5D72334515FC016B00697D97 /* second@2x.png */,
 				5D72332B15FC016A00697D97 /* Supporting Files */,
+				B2434C8415FC0F4200613FDF /* ScreenRecorder.h */,
+				B2434C8515FC0F4200613FDF /* ScreenRecorder.m */,
 				5D72336A15FC0D3B00697D97 /* EventCaptureApplication.h */,
 				5D72336B15FC0D3B00697D97 /* EventCaptureApplication.m */,
 			);
@@ -288,6 +305,7 @@
 				5D72333515FC016A00697D97 /* AppDelegate.m in Sources */,
 				5D72333B15FC016A00697D97 /* FirstViewController.m in Sources */,
 				5D72334215FC016B00697D97 /* SecondViewController.m in Sources */,
+				B2434C8615FC0F4200613FDF /* ScreenRecorder.m in Sources */,
 				5D72336C15FC0D3B00697D97 /* EventCaptureApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +478,7 @@
 				5D72336015FC016B00697D97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D72336115FC016B00697D97 /* Build configuration list for PBXNativeTarget "DemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +487,7 @@
 				5D72336315FC016B00697D97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
