@@ -23,7 +23,9 @@
 @property (nonatomic, weak) UIApplication *application;
 
 //+ (NSBundle *)frameworkBundle;
+- (void) showRecordingControlViewController;
 - (void) addTouchOverlayForEvent:(UIEvent*)event;
+- (IBAction)handleStopRecordingSwipe:(UIGestureRecognizer *) sender;
 
 @end
 
@@ -84,6 +86,30 @@
     
 }
 
+- (void) showRecordingControlViewController
+{
+    if (self.viewController != nil)
+    {
+        [self.viewController.view removeFromSuperview];
+        self.viewController = nil;
+    }
+    
+    RecordControlViewController *viewController = [[RecordControlViewController alloc] init];
+    viewController.recorder = self.recorder;
+    self.viewController = viewController;
+
+
+    id<UIApplicationDelegate> myDelegate = [UIApplication sharedApplication].delegate;
+    UIWindow *window = myDelegate.window;
+
+    self.viewController.view.alpha = 0.0f;
+    [window addSubview:self.viewController.view];
+    
+    [UIView animateWithDuration:0.5f animations:^{
+        self.viewController.view.alpha = 1.0f; 
+    }];
+}
+
 - (void) addTouchOverlayForEvent:(UIEvent*)event
 {
     
@@ -91,16 +117,17 @@
 
     if (self.viewController == nil)
     {
-        RecordControlViewController *viewController = [[RecordControlViewController alloc] init];
-        viewController.recorder = self.recorder;
-        self.viewController = viewController;
-        
+        [self showRecordingControlViewController];
+
+        UITapGestureRecognizer *stopRecordingSwipe = [[UITapGestureRecognizer alloc]
+                                                        initWithTarget:self action:@selector(handleStopRecordingSwipe:)];
+        stopRecordingSwipe.numberOfTapsRequired = 2;
+        stopRecordingSwipe.numberOfTouchesRequired = 1;
+        stopRecordingSwipe.enabled = YES;
         id<UIApplicationDelegate> myDelegate = [UIApplication sharedApplication].delegate;
         UIWindow *window = myDelegate.window;
-        
-//        viewController.view.center = window.center;
-        
-        [window addSubview:self.viewController.view];
+        [window addGestureRecognizer:stopRecordingSwipe];
+
     }
 
     
@@ -172,5 +199,15 @@
     return frameworkBundle;
 }
 
+- (IBAction)handleStopRecordingSwipe:(UIGestureRecognizer *) sender
+{
+    NSLog(@"handleStopRecordingSwipe...");
+    // Make this prettier ... someday
+    if (self.viewController.recorder.recording == YES)
+    {
+        [self.viewController.recorder stopRecording];
+    }
+    [self showRecordingControlViewController];
+}
 
 @end
