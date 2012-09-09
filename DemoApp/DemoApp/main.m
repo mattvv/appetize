@@ -10,9 +10,12 @@
 
 #import "AppDelegate.h"
 
+#import <Appitize/Appitize.h>
+
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
+        NSLog(@"It Works %@",[EventCaptureApplication class]);
         return UIApplicationMain(argc, argv, @"EventCaptureApplication", NSStringFromClass([AppDelegate class]));
     }
 }
