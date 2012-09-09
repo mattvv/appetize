@@ -30,7 +30,7 @@ BOOL recording = NO;
 - (void)startRecording {
     time = 0;
     if (recording)
-        [self stopRecording:nil];
+        [self stopRecording];
     
     recording = YES;
     startTime = [NSDate date];

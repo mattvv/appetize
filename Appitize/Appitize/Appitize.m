@@ -13,6 +13,8 @@
 
 #import "RecordControlViewController.h"
 
+#import "Video.h"
+
 
 @interface Appitize ()
 
@@ -72,6 +74,11 @@
     class_getInstanceMethod([UIApplication class], @selector(sendEvent:));
     method_exchangeImplementations(myReplacementMethod, applicationSendEvent);
     NSLog(@"Events Hooked up!");
+    
+    Video *video = [[Video alloc]init];
+    video.name = @"Sept 8, 2012, 8:42PM";
+    video.time = @"2:52 minutes";
+    
 }
 
 - (void) addTouchOverlayForEvent:(UIEvent*)event
