@@ -23,14 +23,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		5D5A180715FC55990058F50F /* Appitize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A180615FC55990058F50F /* Appitize.m */; };
+		5D2470A515FCE86D0041232A /* AppitizeResources-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D2470A415FCE86D0041232A /* AppitizeResources-Info.plist */; };
+		5D5A180715FC55990058F50F /* Appetize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A180615FC55990058F50F /* Appetize.m */; };
 		5D5A182B15FC5C1B0058F50F /* finger_press1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182515FC5C1B0058F50F /* finger_press1.png */; };
 		5D5A182C15FC5C1B0058F50F /* finger_press1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182615FC5C1B0058F50F /* finger_press1@2x.png */; };
 		5D5A182D15FC5C1B0058F50F /* finger_press2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182715FC5C1B0058F50F /* finger_press2.png */; };
 		5D5A182E15FC5C1B0058F50F /* finger_press2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182815FC5C1B0058F50F /* finger_press2@2x.png */; };
 		5D5A182F15FC5C1B0058F50F /* finger_press3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182915FC5C1B0058F50F /* finger_press3.png */; };
 		5D5A183015FC5C1B0058F50F /* finger_press3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */; };
-		5DAFFF2E15FC287B0047124F /* Appitize.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAFFF2C15FC287B0047124F /* Appitize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAFFF2E15FC287B0047124F /* Appetize.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAFFF2C15FC287B0047124F /* Appetize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DF5A19F15FC795D0011444E /* RecordControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5A19E15FC795D0011444E /* RecordControlViewController.xib */; };
 		5DF5A1AD15FC7DB70011444E /* RecordControlViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF5A1AB15FC7DB70011444E /* RecordControlViewController.h */; };
 		5DF5A1AE15FC7DB70011444E /* RecordControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF5A1AC15FC7DB70011444E /* RecordControlViewController.m */; };
@@ -71,7 +72,7 @@
 			containerPortal = 66E8B6CA14D899500074EAA4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 66E8B6D214D899500074EAA4;
-			remoteInfo = Appitize;
+			remoteInfo = Appetize;
 		};
 		664A26AB14E330B700C297E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -83,28 +84,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D5A180615FC55990058F50F /* Appitize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appitize.m; sourceTree = "<group>"; };
+		5D2470A415FCE86D0041232A /* AppitizeResources-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppitizeResources-Info.plist"; sourceTree = "<group>"; };
+		5D5A180615FC55990058F50F /* Appetize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Appetize.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5D5A182515FC5C1B0058F50F /* finger_press1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finger_press1.png; sourceTree = "<group>"; };
 		5D5A182615FC5C1B0058F50F /* finger_press1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finger_press1@2x.png"; sourceTree = "<group>"; };
 		5D5A182715FC5C1B0058F50F /* finger_press2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finger_press2.png; sourceTree = "<group>"; };
 		5D5A182815FC5C1B0058F50F /* finger_press2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finger_press2@2x.png"; sourceTree = "<group>"; };
 		5D5A182915FC5C1B0058F50F /* finger_press3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finger_press3.png; sourceTree = "<group>"; };
 		5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finger_press3@2x.png"; sourceTree = "<group>"; };
-		5DAFFF2B15FC287B0047124F /* Appitize-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Appitize-Prefix.pch"; sourceTree = "<group>"; };
-		5DAFFF2C15FC287B0047124F /* Appitize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appitize.h; sourceTree = "<group>"; };
+		5DAFFF2B15FC287B0047124F /* Appetize-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Appetize-Prefix.pch"; sourceTree = "<group>"; };
+		5DAFFF2C15FC287B0047124F /* Appetize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appetize.h; sourceTree = "<group>"; };
 		5DF5A19E15FC795D0011444E /* RecordControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordControlViewController.xib; sourceTree = "<group>"; };
 		5DF5A1AB15FC7DB70011444E /* RecordControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordControlViewController.h; sourceTree = "<group>"; };
 		5DF5A1AC15FC7DB70011444E /* RecordControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordControlViewController.m; sourceTree = "<group>"; };
 		664A268414E3222700C297E6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		664A269514E3265400C297E6 /* Appitize.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appitize.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		664A269914E3265400C297E6 /* AppitizeResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppitizeResources-Info.plist"; sourceTree = "<group>"; };
-		66E8B6D314D899500074EAA4 /* libAppitize.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppitize.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		664A269514E3265400C297E6 /* Appetize.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appetize.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E8B6D314D899500074EAA4 /* libAppetize.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppetize.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E8B6D614D899500074EAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B255BEEA15FC6AD20068145A /* ScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenRecorder.h; sourceTree = "<group>"; };
 		B255BEEB15FC6AD20068145A /* ScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenRecorder.m; sourceTree = "<group>"; };
 		B255BEEE15FC6EE80068145A /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
 		B255BEEF15FC6EE80068145A /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
-		B255BEF215FC6FB50068145A /* MoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayer.h; sourceTree = "<group>"; };
+		B255BEF215FC6FB50068145A /* MoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MoviePlayer.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		B255BEF315FC6FB50068145A /* MoviePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayer.m; sourceTree = "<group>"; };
 		B255BF0015FC79A70068145A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		B255BF0115FC79A70068145A /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
@@ -157,7 +158,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		664A269714E3265400C297E6 /* AppitizeResources */ = {
+		664A269714E3265400C297E6 /* AppetizeResources */ = {
 			isa = PBXGroup;
 			children = (
 				B255BF0015FC79A70068145A /* close.png */,
@@ -176,18 +177,18 @@
 				5D5A182815FC5C1B0058F50F /* finger_press2@2x.png */,
 				5D5A182915FC5C1B0058F50F /* finger_press3.png */,
 				5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */,
-				664A269914E3265400C297E6 /* AppitizeResources-Info.plist */,
 				5DF5A19E15FC795D0011444E /* RecordControlViewController.xib */,
 				B2D34B1415FC88D2007AE39A /* RecordCell.xib */,
+				5D2470A415FCE86D0041232A /* AppitizeResources-Info.plist */,
 			);
-			path = AppitizeResources;
+			path = AppetizeResources;
 			sourceTree = "<group>";
 		};
 		66E8B6C814D899500074EAA4 = {
 			isa = PBXGroup;
 			children = (
-				66E8B6D814D899500074EAA4 /* Appitize */,
-				664A269714E3265400C297E6 /* AppitizeResources */,
+				66E8B6D814D899500074EAA4 /* Appetize */,
+				664A269714E3265400C297E6 /* AppetizeResources */,
 				66E8B6D514D899500074EAA4 /* Frameworks */,
 				66E8B6D414D899500074EAA4 /* Products */,
 			);
@@ -196,8 +197,8 @@
 		66E8B6D414D899500074EAA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66E8B6D314D899500074EAA4 /* libAppitize.a */,
-				664A269514E3265400C297E6 /* Appitize.bundle */,
+				66E8B6D314D899500074EAA4 /* libAppetize.a */,
+				664A269514E3265400C297E6 /* Appetize.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,15 +220,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		66E8B6D814D899500074EAA4 /* Appitize */ = {
+		66E8B6D814D899500074EAA4 /* Appetize */ = {
 			isa = PBXGroup;
 			children = (
 				B2D34AD815FC865C007AE39A /* Cells */,
 				B255BEEA15FC6AD20068145A /* ScreenRecorder.h */,
 				B255BEEB15FC6AD20068145A /* ScreenRecorder.m */,
-				5DAFFF2B15FC287B0047124F /* Appitize-Prefix.pch */,
-				5DAFFF2C15FC287B0047124F /* Appitize.h */,
-				5D5A180615FC55990058F50F /* Appitize.m */,
+				5DAFFF2B15FC287B0047124F /* Appetize-Prefix.pch */,
+				5DAFFF2C15FC287B0047124F /* Appetize.h */,
+				5D5A180615FC55990058F50F /* Appetize.m */,
 				B255BEEE15FC6EE80068145A /* Video.h */,
 				B255BEEF15FC6EE80068145A /* Video.m */,
 				B255BEF215FC6FB50068145A /* MoviePlayer.h */,
@@ -235,7 +236,7 @@
 				5DF5A1AB15FC7DB70011444E /* RecordControlViewController.h */,
 				5DF5A1AC15FC7DB70011444E /* RecordControlViewController.m */,
 			);
-			path = Appitize;
+			path = Appetize;
 			sourceTree = "<group>";
 		};
 		B2D34AD815FC865C007AE39A /* Cells */ = {
@@ -254,7 +255,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAFFF2E15FC287B0047124F /* Appitize.h in Headers */,
+				5DAFFF2E15FC287B0047124F /* Appetize.h in Headers */,
 				B255BEEC15FC6AD20068145A /* ScreenRecorder.h in Headers */,
 				B255BEF015FC6EE80068145A /* Video.h in Headers */,
 				B255BEF415FC6FB50068145A /* MoviePlayer.h in Headers */,
@@ -266,9 +267,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		664A269414E3265400C297E6 /* AppitizeResources */ = {
+		664A269414E3265400C297E6 /* AppetizeResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 664A269E14E3265400C297E6 /* Build configuration list for PBXNativeTarget "AppitizeResources" */;
+			buildConfigurationList = 664A269E14E3265400C297E6 /* Build configuration list for PBXNativeTarget "AppetizeResources" */;
 			buildPhases = (
 				664A269114E3265400C297E6 /* Sources */,
 				664A269214E3265400C297E6 /* Frameworks */,
@@ -278,14 +279,14 @@
 			);
 			dependencies = (
 			);
-			name = AppitizeResources;
+			name = AppetizeResources;
 			productName = SerenityResources;
-			productReference = 664A269514E3265400C297E6 /* Appitize.bundle */;
+			productReference = 664A269514E3265400C297E6 /* Appetize.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		66E8B6D214D899500074EAA4 /* Appitize */ = {
+		66E8B6D214D899500074EAA4 /* Appetize */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66E8B6E014D899500074EAA4 /* Build configuration list for PBXNativeTarget "Appitize" */;
+			buildConfigurationList = 66E8B6E014D899500074EAA4 /* Build configuration list for PBXNativeTarget "Appetize" */;
 			buildPhases = (
 				66E8B6CF14D899500074EAA4 /* Sources */,
 				66E8B6D014D899500074EAA4 /* Frameworks */,
@@ -296,9 +297,9 @@
 			);
 			dependencies = (
 			);
-			name = Appitize;
+			name = Appetize;
 			productName = Serenity;
-			productReference = 66E8B6D314D899500074EAA4 /* libAppitize.a */;
+			productReference = 66E8B6D314D899500074EAA4 /* libAppetize.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -310,7 +311,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Google;
 			};
-			buildConfigurationList = 66E8B6CD14D899500074EAA4 /* Build configuration list for PBXProject "Appitize" */;
+			buildConfigurationList = 66E8B6CD14D899500074EAA4 /* Build configuration list for PBXProject "Appetize" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -322,8 +323,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66E8B6D214D899500074EAA4 /* Appitize */,
-				664A269414E3265400C297E6 /* AppitizeResources */,
+				66E8B6D214D899500074EAA4 /* Appetize */,
+				664A269414E3265400C297E6 /* AppetizeResources */,
 				66F5F13314DB195B0068FD20 /* Framework */,
 			);
 		};
@@ -352,6 +353,7 @@
 				B255BF1215FC79A70068145A /* start_recording.png in Resources */,
 				B255BF1315FC79A70068145A /* start_recording@2x.png in Resources */,
 				B2D34B1515FC88D2007AE39A /* RecordCell.xib in Resources */,
+				5D2470A515FCE86D0041232A /* AppitizeResources-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D5A180715FC55990058F50F /* Appitize.m in Sources */,
+				5D5A180715FC55990058F50F /* Appetize.m in Sources */,
 				B255BEED15FC6AD20068145A /* ScreenRecorder.m in Sources */,
 				B255BEF115FC6EE80068145A /* Video.m in Sources */,
 				B255BEF515FC6FB50068145A /* MoviePlayer.m in Sources */,
@@ -414,12 +416,12 @@
 /* Begin PBXTargetDependency section */
 		5DAFFF4C15FC33680047124F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 66E8B6D214D899500074EAA4 /* Appitize */;
+			target = 66E8B6D214D899500074EAA4 /* Appetize */;
 			targetProxy = 5DAFFF4B15FC33680047124F /* PBXContainerItemProxy */;
 		};
 		664A26AC14E330B700C297E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 664A269414E3265400C297E6 /* AppitizeResources */;
+			target = 664A269414E3265400C297E6 /* AppetizeResources */;
 			targetProxy = 664A26AB14E330B700C297E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,14 +432,14 @@
 			buildSettings = {
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "AppitizeResources/AppitizeResources-Info.plist";
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = Appitize;
+				PRODUCT_NAME = Appetize;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -448,14 +450,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "AppitizeResources/AppitizeResources-Info.plist";
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = Appitize;
+				PRODUCT_NAME = Appetize;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
@@ -506,14 +508,14 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
-				DSTROOT = /tmp/Appitize.dst;
+				DSTROOT = /tmp/Appetize.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Appitize/Appitize-Prefix.pch";
+				GCC_PREFIX_HEADER = "Appetize/Appetize-Prefix.pch";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = Appitize;
+				PRODUCT_NAME = Appetize;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
@@ -526,14 +528,14 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
-				DSTROOT = /tmp/Appitize.dst;
+				DSTROOT = /tmp/Appetize.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Appitize/Appitize-Prefix.pch";
+				GCC_PREFIX_HEADER = "Appetize/Appetize-Prefix.pch";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = Appitize;
+				PRODUCT_NAME = Appetize;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
@@ -557,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		664A269E14E3265400C297E6 /* Build configuration list for PBXNativeTarget "AppitizeResources" */ = {
+		664A269E14E3265400C297E6 /* Build configuration list for PBXNativeTarget "AppetizeResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				664A269F14E3265400C297E6 /* Debug */,
@@ -566,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66E8B6CD14D899500074EAA4 /* Build configuration list for PBXProject "Appitize" */ = {
+		66E8B6CD14D899500074EAA4 /* Build configuration list for PBXProject "Appetize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66E8B6DE14D899500074EAA4 /* Debug */,
@@ -575,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66E8B6E014D899500074EAA4 /* Build configuration list for PBXNativeTarget "Appitize" */ = {
+		66E8B6E014D899500074EAA4 /* Build configuration list for PBXNativeTarget "Appetize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66E8B6E114D899500074EAA4 /* Debug */,

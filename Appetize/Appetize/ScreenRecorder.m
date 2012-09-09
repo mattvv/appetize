@@ -10,7 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <CoreVideo/CoreVideo.h>
 #import <AssetsLibrary/AssetsLibrary.h>
-#import "Appitize.h"
+#import "Appetize.h"
 #import "Video.h"
 
 #define DOCUMENTS_FOLDER [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"]
@@ -115,9 +115,8 @@
                         video.mainLength = [NSString stringWithFormat:@"00.00:%d", seconds];
                     }
                     video.name = [format stringFromDate:startTime];
-                    
-                    Appitize *appitize = [Appitize sharedEngine];
-                    [appitize addVideo:video];
+                    Appetize *appetize = [Appetize sharedEngine];
+                    [appetize addVideo:video];
                     //todo: show start view
                 }
             });

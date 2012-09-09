@@ -8,14 +8,14 @@
 
 #import "AppDelegate.h"
 
-#import <Appitize/Appitize.h>
+#import <Appetize/Appetize.h>
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[Appitize sharedEngine] initializeWithApplication: application];
+    [[Appetize sharedEngine] initializeWithApplication: application];
 
     // Override point for customization after application launch.
     

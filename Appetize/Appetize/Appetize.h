@@ -8,11 +8,11 @@
 
 @class Video;
 
-@interface Appitize : NSObject
+@interface Appetize : NSObject
 
 @property (nonatomic, retain) NSMutableArray *lastVideos;
 
-+ (Appitize *) sharedEngine;
++ (Appetize *) sharedEngine;
 
 - (void) initializeWithApplication: (UIApplication*) application;
 
