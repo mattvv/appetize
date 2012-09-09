@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <UIKit/UIKit.h>
 
 @interface ScreenRecorder : NSObject
 
@@ -16,9 +18,11 @@
 @property (nonatomic, retain) AVAssetWriterInputPixelBufferAdaptor *adaptor;
 @property (nonatomic, retain) NSTimer *timer;
 @property (nonatomic) int time;
+@property (nonatomic, retain) NSString* fileURL;
+@property (nonatomic, retain) MPMoviePlayerViewController * mMPVC;
 
 - (void)startRecording;
-- (void)stopRecording;
+- (void)stopRecording:(UIView*)view;
 - (void)addImage;
 
 @end

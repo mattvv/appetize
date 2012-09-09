@@ -31,6 +31,8 @@
 		B2434C8B15FC0FEB00613FDF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2434C8A15FC0FEB00613FDF /* AVFoundation.framework */; };
 		B2434C8D15FC152400613FDF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2434C8C15FC152400613FDF /* CoreMedia.framework */; };
 		B29D1C4215FC2165004B656F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C4115FC2165004B656F /* CoreVideo.framework */; };
+		B29D1C6E15FC5274004B656F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C6D15FC5274004B656F /* AssetsLibrary.framework */; };
+		B29D1C8115FC5FCB004B656F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C8015FC5FCB004B656F /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,8 @@
 		B2434C8A15FC0FEB00613FDF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B2434C8C15FC152400613FDF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		B29D1C4115FC2165004B656F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B29D1C6D15FC5274004B656F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B29D1C8015FC5FCB004B656F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29D1C8115FC5FCB004B656F /* MediaPlayer.framework in Frameworks */,
+				B29D1C6E15FC5274004B656F /* AssetsLibrary.framework in Frameworks */,
 				5D5A181815FC56E40058F50F /* libAppitize.a in Frameworks */,
 				B29D1C4215FC2165004B656F /* CoreVideo.framework in Frameworks */,
 				B2434C8D15FC152400613FDF /* CoreMedia.framework in Frameworks */,
@@ -166,6 +172,9 @@
 		5D72332315FC016A00697D97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B29D1C8015FC5FCB004B656F /* MediaPlayer.framework */,
+				B29D1C6D15FC5274004B656F /* AssetsLibrary.framework */,
+				5DAFFF4915FC31570047124F /* Appitize.framework */,
 				5D5A180915FC56880058F50F /* Appitize.xcodeproj */,
 				B29D1C4115FC2165004B656F /* CoreVideo.framework */,
 				B2434C8C15FC152400613FDF /* CoreMedia.framework */,
