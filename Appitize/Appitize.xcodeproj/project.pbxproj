@@ -24,10 +24,14 @@
 
 /* Begin PBXBuildFile section */
 		5D5A180715FC55990058F50F /* Appitize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A180615FC55990058F50F /* Appitize.m */; };
+		5D5A182B15FC5C1B0058F50F /* finger_press1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182515FC5C1B0058F50F /* finger_press1.png */; };
+		5D5A182C15FC5C1B0058F50F /* finger_press1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182615FC5C1B0058F50F /* finger_press1@2x.png */; };
+		5D5A182D15FC5C1B0058F50F /* finger_press2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182715FC5C1B0058F50F /* finger_press2.png */; };
+		5D5A182E15FC5C1B0058F50F /* finger_press2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182815FC5C1B0058F50F /* finger_press2@2x.png */; };
+		5D5A182F15FC5C1B0058F50F /* finger_press3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182915FC5C1B0058F50F /* finger_press3.png */; };
+		5D5A183015FC5C1B0058F50F /* finger_press3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */; };
 		5DAFFF2E15FC287B0047124F /* Appitize.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAFFF2C15FC287B0047124F /* Appitize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		664A269614E3265400C297E6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A268414E3222700C297E6 /* CoreFoundation.framework */; };
-		664A269C14E3265400C297E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 664A269A14E3265400C297E6 /* InfoPlist.strings */; };
-		664A26A914E32C4100C297E6 /* SimpleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664A26A814E32C4100C297E6 /* SimpleView.xib */; };
 		66E8B6D714D899500074EAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8B6D614D899500074EAA4 /* Foundation.framework */; };
 		B29D1C5715FC454E004B656F /* ScreenRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = B29D1C5515FC454E004B656F /* ScreenRecorder.h */; };
 		B29D1C5815FC454E004B656F /* ScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B29D1C5615FC454E004B656F /* ScreenRecorder.m */; };
@@ -58,13 +62,17 @@
 
 /* Begin PBXFileReference section */
 		5D5A180615FC55990058F50F /* Appitize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appitize.m; sourceTree = "<group>"; };
+		5D5A182515FC5C1B0058F50F /* finger_press1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finger_press1.png; sourceTree = "<group>"; };
+		5D5A182615FC5C1B0058F50F /* finger_press1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finger_press1@2x.png"; sourceTree = "<group>"; };
+		5D5A182715FC5C1B0058F50F /* finger_press2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finger_press2.png; sourceTree = "<group>"; };
+		5D5A182815FC5C1B0058F50F /* finger_press2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finger_press2@2x.png"; sourceTree = "<group>"; };
+		5D5A182915FC5C1B0058F50F /* finger_press3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finger_press3.png; sourceTree = "<group>"; };
+		5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finger_press3@2x.png"; sourceTree = "<group>"; };
 		5DAFFF2B15FC287B0047124F /* Appitize-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Appitize-Prefix.pch"; sourceTree = "<group>"; };
 		5DAFFF2C15FC287B0047124F /* Appitize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appitize.h; sourceTree = "<group>"; };
 		664A268414E3222700C297E6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		664A269514E3265400C297E6 /* Appitize.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appitize.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		664A269914E3265400C297E6 /* AppitizeResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppitizeResources-Info.plist"; sourceTree = "<group>"; };
-		664A269B14E3265400C297E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		664A26A814E32C4100C297E6 /* SimpleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleView.xib; sourceTree = "<group>"; };
 		66E8B6D314D899500074EAA4 /* libAppitize.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppitize.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E8B6D614D899500074EAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B29D1C5515FC454E004B656F /* ScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenRecorder.h; path = ../../DemoApp/DemoApp/ScreenRecorder.h; sourceTree = "<group>"; };
@@ -106,19 +114,15 @@
 		664A269714E3265400C297E6 /* AppitizeResources */ = {
 			isa = PBXGroup;
 			children = (
-				664A26A814E32C4100C297E6 /* SimpleView.xib */,
-				664A26A714E32C0A00C297E6 /* English */,
+				5D5A182515FC5C1B0058F50F /* finger_press1.png */,
+				5D5A182615FC5C1B0058F50F /* finger_press1@2x.png */,
+				5D5A182715FC5C1B0058F50F /* finger_press2.png */,
+				5D5A182815FC5C1B0058F50F /* finger_press2@2x.png */,
+				5D5A182915FC5C1B0058F50F /* finger_press3.png */,
+				5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */,
 				664A269914E3265400C297E6 /* AppitizeResources-Info.plist */,
 			);
 			path = AppitizeResources;
-			sourceTree = "<group>";
-		};
-		664A26A714E32C0A00C297E6 /* English */ = {
-			isa = PBXGroup;
-			children = (
-				664A269A14E3265400C297E6 /* InfoPlist.strings */,
-			);
-			name = English;
 			sourceTree = "<group>";
 		};
 		66E8B6C814D899500074EAA4 = {
@@ -250,8 +254,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664A269C14E3265400C297E6 /* InfoPlist.strings in Resources */,
-				664A26A914E32C4100C297E6 /* SimpleView.xib in Resources */,
+				5D5A182B15FC5C1B0058F50F /* finger_press1.png in Resources */,
+				5D5A182C15FC5C1B0058F50F /* finger_press1@2x.png in Resources */,
+				5D5A182D15FC5C1B0058F50F /* finger_press2.png in Resources */,
+				5D5A182E15FC5C1B0058F50F /* finger_press2@2x.png in Resources */,
+				5D5A182F15FC5C1B0058F50F /* finger_press3.png in Resources */,
+				5D5A183015FC5C1B0058F50F /* finger_press3@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,17 +327,6 @@
 			targetProxy = 664A26AB14E330B700C297E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		664A269A14E3265400C297E6 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				664A269B14E3265400C297E6 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		664A269F14E3265400C297E6 /* Debug */ = {
@@ -402,6 +399,7 @@
 		66E8B6E114D899500074EAA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/Appitize.dst;
@@ -418,6 +416,7 @@
 		66E8B6E214D899500074EAA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/Appitize.dst;

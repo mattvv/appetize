@@ -55,6 +55,13 @@
 			remoteGlobalIDString = 66E8B6D214D899500074EAA4;
 			remoteInfo = Appitize;
 		};
+		5D5A183215FC5C6D0058F50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5A180915FC56880058F50F /* Appitize.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 664A269414E3265400C297E6;
+			remoteInfo = AppitizeResources;
+		};
 		5D72335115FC016B00697D97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5D72331715FC016A00697D97 /* Project object */;
@@ -237,6 +244,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5D5A183315FC5C6D0058F50F /* PBXTargetDependency */,
 				5D5A181715FC56D40058F50F /* PBXTargetDependency */,
 			);
 			name = DemoApp;
@@ -381,6 +389,11 @@
 			isa = PBXTargetDependency;
 			name = Appitize;
 			targetProxy = 5D5A181615FC56D40058F50F /* PBXContainerItemProxy */;
+		};
+		5D5A183315FC5C6D0058F50F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppitizeResources;
+			targetProxy = 5D5A183215FC5C6D0058F50F /* PBXContainerItemProxy */;
 		};
 		5D72335215FC016B00697D97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
