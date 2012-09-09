@@ -12,11 +12,12 @@
 #import <objc/runtime.h>
 
 #import "RecordControlViewController.h"
-
+#import "ScreenRecorder.h"
 
 @interface Appitize ()
 
 @property (nonatomic, strong) RecordControlViewController *viewController;
+@property (nonatomic, strong) ScreenRecorder *recorder;
 @property (nonatomic, weak) UIApplication *application;
 
 //+ (NSBundle *)frameworkBundle;
@@ -71,6 +72,8 @@
     class_getInstanceMethod([UIApplication class], @selector(sendEvent:));
     method_exchangeImplementations(myReplacementMethod, applicationSendEvent);
     NSLog(@"Events Hooked up!");
+    
+    self.recorder = [[ScreenRecorder alloc] init];
 }
 
 - (void) addTouchOverlayForEvent:(UIEvent*)event
@@ -81,7 +84,7 @@
     if (self.viewController == nil)
     {
         RecordControlViewController *viewController = [[RecordControlViewController alloc] init];
-
+        viewController.recorder = self.recorder;
         self.viewController = viewController;
         
         id<UIApplicationDelegate> myDelegate = [UIApplication sharedApplication].delegate;

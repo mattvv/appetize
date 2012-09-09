@@ -27,14 +27,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)startRecording:(id)sender {
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    [appDelegate.screenRecorder startRecording];
-}
-- (IBAction)stopRecording:(id)sender {
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    [appDelegate.screenRecorder stopRecording:self.view];
-}
 
 
 @end

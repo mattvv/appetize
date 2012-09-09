@@ -20,6 +20,8 @@
 @property (nonatomic, retain) NSString* fileURL;
 @property (nonatomic, retain) NSDate* startTime;
 
+@property (nonatomic, assign, readonly) BOOL recording;
+
 - (void)startRecording;
 - (void)stopRecording:(UIView*)view;
 - (void)addImage;

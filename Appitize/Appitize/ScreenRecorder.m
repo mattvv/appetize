@@ -24,8 +24,7 @@
 @synthesize time;
 @synthesize fileURL;
 @synthesize startTime;
-
-BOOL recording = NO;
+@synthesize recording;
 
 - (void)startRecording {
     time = 0;
