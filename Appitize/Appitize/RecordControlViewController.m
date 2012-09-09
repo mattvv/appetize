@@ -74,7 +74,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	RecordCell *cell = (RecordCell*)[tableView dequeueReusableCellWithIdentifier: @"RecordCell"];
+	RecordCell *cell = (RecordCell*)[tableView dequeueReusableCellWithIdentifier: @"RecordCellIdentifier"];
 	if (cell == nil) {
 		cell = [[[Appitize frameworkBundle] loadNibNamed:@"RecordCell" owner:self options:nil] lastObject];
 	}

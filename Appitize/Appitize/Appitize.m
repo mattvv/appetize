@@ -14,6 +14,7 @@
 #import "RecordControlViewController.h"
 #import "ScreenRecorder.h"
 #import "Video.h"
+#import "RecordCell.h"
 
 
 @interface Appitize ()
@@ -59,6 +60,9 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         appitizeEngine = [[Appitize alloc] init];
+        
+        //todo: This should be removed.
+        [RecordCell _keepAtLinkTime];
     });
     return appitizeEngine;
 }
@@ -78,9 +82,10 @@
     
     self.recorder = [[ScreenRecorder alloc] init];
 
-    Video *video = [[Video alloc]init];
-    video.name = @"Sept 8, 2012, 8:42PM";
-    video.time = @"2:52 minutes";
+//    Video *video = [[Video alloc]init];
+//    video.name = @"Sept 8, 2012, 8:42PM";
+//    video.time = @"2:52 minutes";
+//    [lastVideos addObject:video];
     
 }
 
