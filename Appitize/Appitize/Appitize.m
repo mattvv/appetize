@@ -98,17 +98,18 @@
                 [window addSubview:imageView];
             }
             
-            [UIView animateWithDuration:0.25f
+            const float AnimationInterval = 0.0875f;
+            [UIView animateWithDuration:AnimationInterval
                              animations:^{
                                  touchDownImageView.alpha = 1.0;
                                  touchRipple1ImageView.alpha = 0.1;
                              } completion:^(BOOL finished) {
-                                 [UIView animateWithDuration:0.25f animations:^{
+                                 [UIView animateWithDuration:AnimationInterval animations:^{
                                      touchDownImageView.alpha = 0.0;
                                      touchRipple1ImageView.alpha = 1.0;
                                      touchRipple2ImageView.alpha = 0.1;
                                  } completion:^(BOOL finished) {
-                                     [UIView animateWithDuration:0.25f animations:^{
+                                     [UIView animateWithDuration:AnimationInterval animations:^{
                                          touchDownImageView.alpha = 0.0;
                                          touchRipple1ImageView.alpha = 0.0;
                                          touchRipple2ImageView.alpha = 1.0;
