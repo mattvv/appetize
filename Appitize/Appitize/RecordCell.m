@@ -7,15 +7,16 @@
 //
 
 #import "RecordCell.h"
+#import "MoviePlayer.h"
 
 @implementation RecordCell
-@synthesize name, time;
+@synthesize name, time, video;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        // Initialization code
+        
     }
     return self;
 }
@@ -25,6 +26,11 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+- (IBAction)playVideo:(id)sender {
+    MoviePlayer *mp = [[MoviePlayer alloc] init];
+    [mp playVideo:video withView:self.superview.superview.superview];
 }
 
 @end
