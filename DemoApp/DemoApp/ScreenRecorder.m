@@ -9,6 +9,7 @@
 #import "ScreenRecorder.h"
 #import <QuartzCore/QuartzCore.h>
 #import <CoreVideo/CoreVideo.h>
+#import <UIKit/UIKit.h>
 
 #define DOCUMENTS_FOLDER [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"]
 
