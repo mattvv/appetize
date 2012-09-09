@@ -18,6 +18,7 @@
 @property (nonatomic, retain) NSTimer *timer;
 @property (nonatomic) int time;
 @property (nonatomic, retain) NSString* fileURL;
+@property (nonatomic, retain) NSDate* startTime;
 
 - (void)startRecording;
 - (void)stopRecording:(UIView*)view;

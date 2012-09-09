@@ -23,6 +23,7 @@
 @synthesize timer;
 @synthesize time;
 @synthesize fileURL;
+@synthesize startTime;
 
 BOOL recording = NO;
 
@@ -32,6 +33,7 @@ BOOL recording = NO;
         [self stopRecording:nil];
     
     recording = YES;
+    startTime = [NSDate date];
     
     [self initCapture];
     [videoWriter startWriting];
@@ -96,10 +98,23 @@ BOOL recording = NO;
                     if (view == nil)
                         return;
                     
+                    NSDate *endTime = [NSDate date];
+                    NSTimeInterval length = [endTime timeIntervalSinceDate:startTime];
+                    
+                    NSDateFormatter *format = [[NSDateFormatter alloc] init];
+                    [format setDateFormat:@"MMM dd, yyyy, HH:mm"];
+                    
                     Video *video = [[Video alloc]init];
                     video.assetURL = assetURL;
-                    video.time = @"Placeholder";
-                    video.name = @"Placeholder";
+                    //todo: format video time
+                    int minutes = floor(((int)length % (1000*60*60)) / (1000*60));
+                    int seconds = floor((((int)length % (1000*60*60)) % (1000*60)) / 1000);
+
+                    if (minutes)
+                        video.time = [NSString stringWithFormat:@"%d:%d minutes", minutes,seconds];
+                    else
+                        video.time = [NSString stringWithFormat:@"0:%d minutes", seconds];
+                    video.name = [format stringFromDate:startTime];
                     
                     Appitize *appitize = [Appitize sharedEngine];
                     [appitize.lastVideos addObject:video];
