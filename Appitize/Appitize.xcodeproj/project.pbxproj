@@ -32,6 +32,12 @@
 		66E8B6D714D899500074EAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8B6D614D899500074EAA4 /* Foundation.framework */; };
 		B29D1C5715FC454E004B656F /* ScreenRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = B29D1C5515FC454E004B656F /* ScreenRecorder.h */; };
 		B29D1C5815FC454E004B656F /* ScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B29D1C5615FC454E004B656F /* ScreenRecorder.m */; };
+		B29D1C5B15FC4622004B656F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C5A15FC4622004B656F /* UIKit.framework */; };
+		B29D1C5D15FC463B004B656F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C5C15FC463B004B656F /* QuartzCore.framework */; };
+		B29D1C5F15FC463E004B656F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C5E15FC463E004B656F /* AVFoundation.framework */; };
+		B29D1C6115FC4642004B656F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C6015FC4642004B656F /* CoreMedia.framework */; };
+		B29D1C6315FC4646004B656F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C6215FC4646004B656F /* CoreVideo.framework */; };
+		B29D1C6515FC4684004B656F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C6415FC4684004B656F /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +71,12 @@
 		66E8B6D614D899500074EAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B29D1C5515FC454E004B656F /* ScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenRecorder.h; path = ../../DemoApp/DemoApp/ScreenRecorder.h; sourceTree = "<group>"; };
 		B29D1C5615FC454E004B656F /* ScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScreenRecorder.m; path = ../../DemoApp/DemoApp/ScreenRecorder.m; sourceTree = "<group>"; };
+		B29D1C5A15FC4622004B656F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B29D1C5C15FC463B004B656F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B29D1C5E15FC463E004B656F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B29D1C6015FC4642004B656F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B29D1C6215FC4646004B656F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B29D1C6415FC4684004B656F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29D1C6515FC4684004B656F /* CoreGraphics.framework in Frameworks */,
+				B29D1C6315FC4646004B656F /* CoreVideo.framework in Frameworks */,
+				B29D1C6115FC4642004B656F /* CoreMedia.framework in Frameworks */,
+				B29D1C5F15FC463E004B656F /* AVFoundation.framework in Frameworks */,
+				B29D1C5D15FC463B004B656F /* QuartzCore.framework in Frameworks */,
+				B29D1C5B15FC4622004B656F /* UIKit.framework in Frameworks */,
 				66E8B6D714D899500074EAA4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +145,12 @@
 		66E8B6D514D899500074EAA4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B29D1C6415FC4684004B656F /* CoreGraphics.framework */,
+				B29D1C6215FC4646004B656F /* CoreVideo.framework */,
+				B29D1C6015FC4642004B656F /* CoreMedia.framework */,
+				B29D1C5E15FC463E004B656F /* AVFoundation.framework */,
+				B29D1C5C15FC463B004B656F /* QuartzCore.framework */,
+				B29D1C5A15FC4622004B656F /* UIKit.framework */,
 				66E8B6D614D899500074EAA4 /* Foundation.framework */,
 				664A268414E3222700C297E6 /* CoreFoundation.framework */,
 			);
