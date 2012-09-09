@@ -174,7 +174,6 @@
 			children = (
 				B29D1C8015FC5FCB004B656F /* MediaPlayer.framework */,
 				B29D1C6D15FC5274004B656F /* AssetsLibrary.framework */,
-				5DAFFF4915FC31570047124F /* Appitize.framework */,
 				5D5A180915FC56880058F50F /* Appitize.xcodeproj */,
 				B29D1C4115FC2165004B656F /* CoreVideo.framework */,
 				B2434C8C15FC152400613FDF /* CoreMedia.framework */,
