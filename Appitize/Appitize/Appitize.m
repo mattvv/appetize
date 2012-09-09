@@ -45,6 +45,7 @@
 @implementation Appitize
 
 @synthesize application = _application;
+@synthesize lastVideos;
 
 + (Appitize *) sharedEngine;
 {

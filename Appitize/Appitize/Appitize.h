@@ -8,6 +8,8 @@
 
 @interface Appitize : NSObject
 
+@property (nonatomic, retain) NSMutableArray *lastVideos;
+
 + (Appitize *) sharedEngine;
 
 - (void) initializeWithApplication: (UIApplication*) application;

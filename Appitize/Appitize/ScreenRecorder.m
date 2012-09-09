@@ -10,6 +10,8 @@
 #import <QuartzCore/QuartzCore.h>
 #import <CoreVideo/CoreVideo.h>
 #import <AssetsLibrary/AssetsLibrary.h>
+#import "Appitize.h"
+#import "Video.h"
 
 #define DOCUMENTS_FOLDER [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"]
 
@@ -21,7 +23,6 @@
 @synthesize timer;
 @synthesize time;
 @synthesize fileURL;
-@synthesize mMPVC;
 
 BOOL recording = NO;
 
@@ -94,37 +95,19 @@ BOOL recording = NO;
                 } else {
                     if (view == nil)
                         return;
-                    mMPVC = [[MPMoviePlayerViewController alloc] initWithContentURL:assetURL];
                     
-                    [mMPVC.moviePlayer setControlStyle:MPMovieControlStyleFullscreen];
-                    [mMPVC.moviePlayer setScalingMode:MPMovieScalingModeAspectFill];
+                    Video *video = [[Video alloc]init];
+                    video.assetURL = assetURL;
+                    video.time = @"Placeholder";
+                    video.name = @"Placeholder";
                     
-                    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlaybackComplete:)
-                                                                 name:MPMoviePlayerPlaybackDidFinishNotification
-                                                               object:mMPVC.moviePlayer];
-                    
-                    UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
-                    [mMPVC.view setFrame:keyWindow.bounds];
-                    
-                    [view addSubview:mMPVC.view];
-                    [mMPVC.moviePlayer play];
-                    
-                    //                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Video Saved" message:@"Saved To Photo Album"
-                    //                                                                   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-                    //                    [alert show];
+                    Appitize *appitize = [Appitize sharedEngine];
+                    [appitize.lastVideos addObject:video];
+                    //todo: show start view
                 }
             });
         }];
     }
-}
-
-- (void)moviePlaybackComplete:(NSNotification *)notification
-{
-    [mMPVC.moviePlayer stop];
-    [mMPVC.moviePlayer.view removeFromSuperview];
-    [[NSNotificationCenter defaultCenter] removeObserver:self
-                                                    name:MPMoviePlayerPlaybackDidFinishNotification
-                                                  object:mMPVC.moviePlayer];
 }
 
 - (void)initCapture {
