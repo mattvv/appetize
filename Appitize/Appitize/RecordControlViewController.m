@@ -99,6 +99,7 @@
     Video *video = [[Appitize sharedEngine].lastVideos objectAtIndex:indexPath.row];
     cell.name.text = video.name;
     cell.time.text = video.time;
+    cell.video = video;
     
     return cell;
 }

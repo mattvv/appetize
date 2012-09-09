@@ -103,7 +103,7 @@
                     [format setDateFormat:@"MMM dd, yyyy, HH:mm"];
                     
                     Video *video = [[Video alloc]init];
-                    video.assetURL = outputURL;
+                    video.assetURL = assetURL;
                     int minutes = floor(length / 60);
                     int seconds = floor(length - (minutes * 60));
 
