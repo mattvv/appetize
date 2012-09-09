@@ -43,7 +43,7 @@
 							<object class="IBUILabel" id="942150997">
 								<reference key="NSNextResponder" ref="655099136"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{58, 2}, {46, 21}}</string>
+								<string key="NSFrame">{{47, 2}, {242, 21}}</string>
 								<reference key="NSSuperview" ref="655099136"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="982657213"/>
@@ -77,7 +77,7 @@
 							<object class="IBUILabel" id="982657213">
 								<reference key="NSNextResponder" ref="655099136"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{58, 19}, {61, 21}}</string>
+								<string key="NSFrame">{{47, 19}, {242, 21}}</string>
 								<reference key="NSSuperview" ref="655099136"/>
 								<reference key="NSWindow"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -107,7 +107,7 @@
 							<object class="IBUIButton" id="806694569">
 								<reference key="NSNextResponder" ref="655099136"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{10, -1}, {42, 42}}</string>
+								<string key="NSFrame">{{-1, -1}, {42, 42}}</string>
 								<reference key="NSSuperview" ref="655099136"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="942150997"/>
@@ -163,6 +163,7 @@
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<reference key="IBUIContentView" ref="655099136"/>
+				<string key="IBUIReuseIdentifier">RecordCellIdentifier</string>
 				<real value="39" key="IBUIRowHeight"/>
 			</object>
 		</array>
@@ -241,6 +242,7 @@
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
+				<string key="-1.CustomClassName">MessageCell</string>
 				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

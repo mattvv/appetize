@@ -33,4 +33,7 @@
     [mp playVideo:video withView:self.superview.superview.superview];
 }
 
++(void)_keepAtLinkTime {
+}
+
 @end

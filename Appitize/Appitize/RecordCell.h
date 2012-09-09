@@ -16,5 +16,6 @@
 @property (nonatomic, retain) Video * video;
 
 - (IBAction)playVideo:(id)sender;
++(void)_keepAtLinkTime;
 
 @end
