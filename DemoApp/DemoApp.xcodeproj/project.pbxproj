@@ -29,6 +29,7 @@
 		B2434C8915FC0FC000613FDF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2434C8815FC0FC000613FDF /* QuartzCore.framework */; };
 		B2434C8B15FC0FEB00613FDF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2434C8A15FC0FEB00613FDF /* AVFoundation.framework */; };
 		B2434C8D15FC152400613FDF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2434C8C15FC152400613FDF /* CoreMedia.framework */; };
+		5D72336C15FC0D3B00697D97 /* EventCaptureApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72336B15FC0D3B00697D97 /* EventCaptureApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		B2434C8815FC0FC000613FDF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B2434C8A15FC0FEB00613FDF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B2434C8C15FC152400613FDF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5D72336A15FC0D3B00697D97 /* EventCaptureApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCaptureApplication.h; sourceTree = "<group>"; };
+		5D72336B15FC0D3B00697D97 /* EventCaptureApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCaptureApplication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 				5D72332B15FC016A00697D97 /* Supporting Files */,
 				B2434C8415FC0F4200613FDF /* ScreenRecorder.h */,
 				B2434C8515FC0F4200613FDF /* ScreenRecorder.m */,
+				5D72336A15FC0D3B00697D97 /* EventCaptureApplication.h */,
+				5D72336B15FC0D3B00697D97 /* EventCaptureApplication.m */,
 			);
 			path = DemoApp;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 				5D72333B15FC016A00697D97 /* FirstViewController.m in Sources */,
 				5D72334215FC016B00697D97 /* SecondViewController.m in Sources */,
 				B2434C8615FC0F4200613FDF /* ScreenRecorder.m in Sources */,
+				5D72336C15FC0D3B00697D97 /* EventCaptureApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
