@@ -8,12 +8,16 @@
 
 #import "RecordControlViewController.h"
 #import "Appitize.h"
+#import "RecordCell.h"
+#import "Video.h"
 
 @interface RecordControlViewController ()
 
 @end
 
 @implementation RecordControlViewController
+
+@synthesize recentTableView;
 
 - (id)init
 {
@@ -51,5 +55,30 @@
     [self setStartStopRecordButton:nil];
     [super viewDidUnload];
 }
+
+#pragma mark - tableview shit
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [[Appitize sharedEngine].lastVideos count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	RecordCell *cell = (RecordCell*)[tableView dequeueReusableCellWithIdentifier: @"RecordCell"];
+	if (cell == nil) {
+		cell = [[[Appitize frameworkBundle] loadNibNamed:@"RecordCell" owner:self options:nil] lastObject];
+	}
+    
+    Video *video = [[Appitize sharedEngine].lastVideos objectAtIndex:indexPath.row];
+    cell.name.text = video.name;
+    cell.time.text = video.time;
+    
+    return cell;
+}
+
+
+
+
 
 @end

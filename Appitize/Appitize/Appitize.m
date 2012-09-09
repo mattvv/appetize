@@ -63,6 +63,7 @@
 - (void) initializeWithApplication: (UIApplication*) application
 {
     self.application = application;
+    lastVideos = [[NSMutableArray alloc]init];
     
     NSLog(@"initializeWithApplication:%@", application);
     Method myReplacementMethod =
