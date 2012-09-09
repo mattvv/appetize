@@ -104,8 +104,8 @@
                     
                     Video *video = [[Video alloc]init];
                     video.assetURL = assetURL;
-                    int minutes = floor(((int)length % (1000*60*60)) / (1000*60));
-                    int seconds = floor((((int)length % (1000*60*60)) % (1000*60)) / 1000);
+                    int minutes = floor(length / 60);
+                    int seconds = floor(length - (minutes * 60));
 
                     if (minutes) {
                         video.time = [NSString stringWithFormat:@"%d:%d minutes", minutes,seconds];

@@ -49,6 +49,14 @@
     [self updateStartStopButtonTitle];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [recentTableView reloadData];
+    if ([[Appitize sharedEngine].lastVideos count] > 0) {
+        Video *video = [[Appitize sharedEngine].lastVideos lastObject];
+        [self.recordTimeLabel setText:video.mainLength];
+    }
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
