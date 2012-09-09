@@ -59,6 +59,7 @@
     [self setRecordTimeLabel:nil];
     [self setCloseButton:nil];
     [self setStartStopRecordButton:nil];
+    
     [super viewDidUnload];
 }
 

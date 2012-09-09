@@ -6,6 +6,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+@class Video;
+
 @interface Appitize : NSObject
 
 @property (nonatomic, retain) NSMutableArray *lastVideos;
@@ -15,5 +17,7 @@
 - (void) initializeWithApplication: (UIApplication*) application;
 
 + (NSBundle *)frameworkBundle;
+
+- (void) addVideo: (Video*) newVideo;
 
 @end
