@@ -13,9 +13,12 @@
 
 @property (nonatomic, retain) AVAssetWriter *videoWriter;
 @property (nonatomic, retain) AVAssetWriterInput* writerInput;
-
+@property (nonatomic, retain) AVAssetWriterInputPixelBufferAdaptor *adaptor;
+@property (nonatomic, retain) NSTimer *timer;
+@property (nonatomic) int time;
 
 - (void)startRecording;
 - (void)stopRecording;
+- (void)addImage;
 
 @end

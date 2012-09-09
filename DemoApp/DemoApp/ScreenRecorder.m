@@ -8,6 +8,7 @@
 
 #import "ScreenRecorder.h"
 #import <QuartzCore/QuartzCore.h>
+#import <CoreVideo/CoreVideo.h>
 
 #define DOCUMENTS_FOLDER [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"]
 
@@ -15,50 +16,65 @@
 
 @synthesize videoWriter;
 @synthesize writerInput;
+@synthesize adaptor;
+@synthesize timer;
+@synthesize time;
+
 BOOL recording = NO;
 
 - (void)startRecording {
+    time = 0;
     if (recording)
         [self stopRecording];
     
     [self initCapture];
     [videoWriter startWriting];
     [videoWriter startSessionAtSourceTime:kCMTimeZero];
+    
+    
+    //convert uiimage to CGImage.
+    //use 0.003 after i perfect
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.03
+                                     target:self
+                                   selector:@selector(addImage)
+                                   userInfo:nil
+                                    repeats:YES];
+    
+}
+
+- (void)addImage {
+    CVPixelBufferRef buffer = NULL;
+    buffer = [self pixelBufferFromCGImage:[[self getCurrentImage] CGImage]];
+    [adaptor appendPixelBuffer:buffer withPresentationTime:CMTimeMake(time, 600)];
+    time += 30; //todo: calculate this per interval
 }
 
 - (void)stopRecording {
+    if (!recording)
+        return;
+    
+    recording = NO;
+    [timer invalidate];
     [writerInput markAsFinished];
-    //[videoWriter endSessionAtSourceTime:…]; optional
-    //todo: call on background thread;
-    [videoWriter finishWriting];
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [videoWriter finishWriting];
+    });
 }
 
 - (void)initCapture {
     UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
-    
-    
 	
-    NSString* recorderFilePath = [NSString stringWithFormat:@"%@/%@.mov", DOCUMENTS_FOLDER, @"recording"];
+    //todo: timestamp
+    NSString* recorderFilePath = [NSString stringWithFormat:@"%@/%@.mov", DOCUMENTS_FOLDER, @"recording13"];
+    if ([[NSFileManager defaultManager] fileExistsAtPath:recorderFilePath])
+        [[NSFileManager defaultManager] removeItemAtPath:recorderFilePath error:nil];
+    
     NSError *error = nil;
     videoWriter = [[AVAssetWriter alloc] initWithURL:
                                   [NSURL fileURLWithPath:recorderFilePath] fileType:AVFileTypeQuickTimeMovie
                                                               error:&error];
     NSParameterAssert(videoWriter);
-    
-//    CGFloat width = 320;
-//    CGFloat height = 480;
-//
-//    if (keyWindow.bounds.size.width) {
-//        width = keyWindow.bounds.size.width;
-//        height = keyWindow.bounds.size.height;
-//    } else {
-//        //todo: support for ipad
-//        if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] == YES && [[UIScreen mainScreen] scale] == 2.00) {
-//            width = 640;
-//            height = 960;
-//        }
-//    }
-    
     
     NSDictionary *videoSettings = [NSDictionary dictionaryWithObjectsAndKeys:
                                    AVVideoCodecH264, AVVideoCodecKey,
@@ -69,6 +85,9 @@ BOOL recording = NO;
                                         assetWriterInputWithMediaType:AVMediaTypeVideo
                                         outputSettings:videoSettings];
     
+    adaptor = [AVAssetWriterInputPixelBufferAdaptor
+                                                     assetWriterInputPixelBufferAdaptorWithAssetWriterInput:writerInput
+                                                     sourcePixelBufferAttributes:nil];
     NSParameterAssert(writerInput);
     NSParameterAssert([videoWriter canAddInput:writerInput]);
     [videoWriter addInput:writerInput];
@@ -154,5 +173,40 @@ BOOL recording = NO;
 //    
 //    return outputImage;
 //}
+
+- (CVPixelBufferRef) pixelBufferFromCGImage: (CGImageRef) image
+{
+    UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
+    
+    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
+                             [NSNumber numberWithBool:YES], kCVPixelBufferCGImageCompatibilityKey,
+                             [NSNumber numberWithBool:YES], kCVPixelBufferCGBitmapContextCompatibilityKey,
+                             nil];
+    CVPixelBufferRef pxbuffer = NULL;
+    
+    CVReturn status = CVPixelBufferCreate(kCFAllocatorDefault, keyWindow.bounds.size.width,
+                                         keyWindow.bounds.size.height, kCVPixelFormatType_32ARGB, (__bridge CFDictionaryRef) options,
+                                          &pxbuffer);
+    NSParameterAssert(status == kCVReturnSuccess && pxbuffer != NULL);
+    
+    CVPixelBufferLockBaseAddress(pxbuffer, 0);
+    void *pxdata = CVPixelBufferGetBaseAddress(pxbuffer);
+    NSParameterAssert(pxdata != NULL);
+    
+    CGColorSpaceRef rgbColorSpace = CGColorSpaceCreateDeviceRGB();
+    CGContextRef context = CGBitmapContextCreate(pxdata, keyWindow.bounds.size.width,
+                                                 keyWindow.bounds.size.height, 8, 4*keyWindow.bounds.size.width, rgbColorSpace,
+                                                 kCGImageAlphaNoneSkipFirst);
+    NSParameterAssert(context);
+    CGContextConcatCTM(context, CGAffineTransformMakeRotation(0));
+    CGContextDrawImage(context, CGRectMake(0, 0, CGImageGetWidth(image),
+                                           CGImageGetHeight(image)), image);
+    CGColorSpaceRelease(rgbColorSpace);
+    CGContextRelease(context);
+    
+    CVPixelBufferUnlockBaseAddress(pxbuffer, 0);
+    
+    return pxbuffer;
+}
 
 @end
