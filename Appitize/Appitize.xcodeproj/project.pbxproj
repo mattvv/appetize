@@ -23,9 +23,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		5D5A180715FC55990058F50F /* Appitize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A180615FC55990058F50F /* Appitize.m */; };
 		5DAFFF2E15FC287B0047124F /* Appitize.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAFFF2C15FC287B0047124F /* Appitize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DAFFF3915FC2B3D0047124F /* EventCaptureApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAFFF3715FC2B3D0047124F /* EventCaptureApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DAFFF3A15FC2B3D0047124F /* EventCaptureApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFFF3815FC2B3D0047124F /* EventCaptureApplication.m */; };
 		664A269614E3265400C297E6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A268414E3222700C297E6 /* CoreFoundation.framework */; };
 		664A269C14E3265400C297E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 664A269A14E3265400C297E6 /* InfoPlist.strings */; };
 		664A26A914E32C4100C297E6 /* SimpleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664A26A814E32C4100C297E6 /* SimpleView.xib */; };
@@ -50,10 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D5A180615FC55990058F50F /* Appitize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appitize.m; sourceTree = "<group>"; };
 		5DAFFF2B15FC287B0047124F /* Appitize-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Appitize-Prefix.pch"; sourceTree = "<group>"; };
 		5DAFFF2C15FC287B0047124F /* Appitize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appitize.h; sourceTree = "<group>"; };
-		5DAFFF3715FC2B3D0047124F /* EventCaptureApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCaptureApplication.h; sourceTree = "<group>"; };
-		5DAFFF3815FC2B3D0047124F /* EventCaptureApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCaptureApplication.m; sourceTree = "<group>"; };
 		664A268414E3222700C297E6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		664A269514E3265400C297E6 /* Appitize.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appitize.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		664A269914E3265400C297E6 /* AppitizeResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppitizeResources-Info.plist"; sourceTree = "<group>"; };
@@ -134,8 +132,7 @@
 			children = (
 				5DAFFF2B15FC287B0047124F /* Appitize-Prefix.pch */,
 				5DAFFF2C15FC287B0047124F /* Appitize.h */,
-				5DAFFF3715FC2B3D0047124F /* EventCaptureApplication.h */,
-				5DAFFF3815FC2B3D0047124F /* EventCaptureApplication.m */,
+				5D5A180615FC55990058F50F /* Appitize.m */,
 			);
 			path = Appitize;
 			sourceTree = "<group>";
@@ -148,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DAFFF2E15FC287B0047124F /* Appitize.h in Headers */,
-				5DAFFF3915FC2B3D0047124F /* EventCaptureApplication.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAFFF3A15FC2B3D0047124F /* EventCaptureApplication.m in Sources */,
+				5D5A180715FC55990058F50F /* Appitize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

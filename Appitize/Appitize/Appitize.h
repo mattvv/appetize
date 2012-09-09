@@ -6,3 +6,11 @@
 #import <Foundation/Foundation.h>
 
 #import <Appitize/EventCaptureApplication.h>
+
+@interface Appitize : NSObject
+
++ (Appitize *) sharedEngine;
+
+- (void) initializeWithApplication: (UIApplication*) application;
+
+@end
