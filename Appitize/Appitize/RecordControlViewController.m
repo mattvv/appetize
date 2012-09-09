@@ -50,11 +50,7 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    [recentTableView reloadData];
-    if ([[Appitize sharedEngine].lastVideos count] > 0) {
-        Video *video = [[Appitize sharedEngine].lastVideos lastObject];
-        [self.recordTimeLabel setText:video.mainLength];
-    }
+    [self reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,6 +66,18 @@
     
     [super viewDidUnload];
 }
+
+#pragma mark - Reload Method
+
+- (void) reloadData
+{
+    [recentTableView reloadData];
+    if ([[Appitize sharedEngine].lastVideos count] > 0) {
+        Video *video = [[Appitize sharedEngine].lastVideos lastObject];
+        [self.recordTimeLabel setText:video.mainLength];
+    }
+}
+
 
 #pragma mark - tableview shit
 
@@ -138,4 +146,5 @@
     }
     [self updateStartStopButtonTitle];
 }
+
 @end

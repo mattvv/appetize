@@ -209,17 +209,22 @@
     if (self.viewController.recorder.recording == YES)
     {
         [self.viewController.recorder stopRecording];
+        [self showRecordingControlViewController];
     }
-    [self showRecordingControlViewController];
+    // Guard against loading this again if already loaded...
+    else if (self.viewController.view.superview == nil)
+    {
+        [self showRecordingControlViewController];
+    }
 }
 
-#pragma mark - Add Video 
+#pragma mark - Add Video
 
 - (void) addVideo: (Video*) newVideo
 {
     [lastVideos insertObject:newVideo atIndex:0];
     // Hack!!
-    [self.viewController.recentTableView reloadData];
+    [self.viewController reloadData];
     
 }
 
