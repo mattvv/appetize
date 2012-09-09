@@ -31,7 +31,9 @@
 		5D5A182F15FC5C1B0058F50F /* finger_press3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182915FC5C1B0058F50F /* finger_press3.png */; };
 		5D5A183015FC5C1B0058F50F /* finger_press3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */; };
 		5DAFFF2E15FC287B0047124F /* Appitize.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAFFF2C15FC287B0047124F /* Appitize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DF5A19F15FC795D0011444E /* RecordControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5A19E15FC795D0011444E /* RecordControlView.xib */; };
+		5DF5A19F15FC795D0011444E /* RecordControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5A19E15FC795D0011444E /* RecordControlViewController.xib */; };
+		5DF5A1AD15FC7DB70011444E /* RecordControlViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF5A1AB15FC7DB70011444E /* RecordControlViewController.h */; };
+		5DF5A1AE15FC7DB70011444E /* RecordControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF5A1AC15FC7DB70011444E /* RecordControlViewController.m */; };
 		664A269614E3265400C297E6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A268414E3222700C297E6 /* CoreFoundation.framework */; };
 		66E8B6D714D899500074EAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8B6D614D899500074EAA4 /* Foundation.framework */; };
 		B255BEEC15FC6AD20068145A /* ScreenRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = B255BEEA15FC6AD20068145A /* ScreenRecorder.h */; };
@@ -87,7 +89,9 @@
 		5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finger_press3@2x.png"; sourceTree = "<group>"; };
 		5DAFFF2B15FC287B0047124F /* Appitize-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Appitize-Prefix.pch"; sourceTree = "<group>"; };
 		5DAFFF2C15FC287B0047124F /* Appitize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appitize.h; sourceTree = "<group>"; };
-		5DF5A19E15FC795D0011444E /* RecordControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordControlView.xib; sourceTree = "<group>"; };
+		5DF5A19E15FC795D0011444E /* RecordControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordControlViewController.xib; sourceTree = "<group>"; };
+		5DF5A1AB15FC7DB70011444E /* RecordControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordControlViewController.h; sourceTree = "<group>"; };
+		5DF5A1AC15FC7DB70011444E /* RecordControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordControlViewController.m; sourceTree = "<group>"; };
 		664A268414E3222700C297E6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		664A269514E3265400C297E6 /* Appitize.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appitize.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		664A269914E3265400C297E6 /* AppitizeResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppitizeResources-Info.plist"; sourceTree = "<group>"; };
@@ -167,7 +171,7 @@
 				5D5A182915FC5C1B0058F50F /* finger_press3.png */,
 				5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */,
 				664A269914E3265400C297E6 /* AppitizeResources-Info.plist */,
-				5DF5A19E15FC795D0011444E /* RecordControlView.xib */,
+				5DF5A19E15FC795D0011444E /* RecordControlViewController.xib */,
 			);
 			path = AppitizeResources;
 			sourceTree = "<group>";
@@ -220,6 +224,8 @@
 				B255BEEF15FC6EE80068145A /* Video.m */,
 				B255BEF215FC6FB50068145A /* MoviePlayer.h */,
 				B255BEF315FC6FB50068145A /* MoviePlayer.m */,
+				5DF5A1AB15FC7DB70011444E /* RecordControlViewController.h */,
+				5DF5A1AC15FC7DB70011444E /* RecordControlViewController.m */,
 			);
 			path = Appitize;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				B255BEEC15FC6AD20068145A /* ScreenRecorder.h in Headers */,
 				B255BEF015FC6EE80068145A /* Video.h in Headers */,
 				B255BEF415FC6FB50068145A /* MoviePlayer.h in Headers */,
+				5DF5A1AD15FC7DB70011444E /* RecordControlViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +322,7 @@
 				5D5A182E15FC5C1B0058F50F /* finger_press2@2x.png in Resources */,
 				5D5A182F15FC5C1B0058F50F /* finger_press3.png in Resources */,
 				5D5A183015FC5C1B0058F50F /* finger_press3@2x.png in Resources */,
-				5DF5A19F15FC795D0011444E /* RecordControlView.xib in Resources */,
+				5DF5A19F15FC795D0011444E /* RecordControlViewController.xib in Resources */,
 				B255BF0A15FC79A70068145A /* close.png in Resources */,
 				B255BF0B15FC79A70068145A /* close@2x.png in Resources */,
 				B255BF0C15FC79A70068145A /* logo.png in Resources */,
@@ -378,6 +385,7 @@
 				B255BEED15FC6AD20068145A /* ScreenRecorder.m in Sources */,
 				B255BEF115FC6EE80068145A /* Video.m in Sources */,
 				B255BEF515FC6FB50068145A /* MoviePlayer.m in Sources */,
+				5DF5A1AE15FC7DB70011444E /* RecordControlViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

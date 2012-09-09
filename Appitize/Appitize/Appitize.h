@@ -14,4 +14,6 @@
 
 - (void) initializeWithApplication: (UIApplication*) application;
 
++ (NSBundle *)frameworkBundle;
+
 @end

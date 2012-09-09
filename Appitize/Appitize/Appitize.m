@@ -11,12 +11,15 @@
 
 #import <objc/runtime.h>
 
+#import "RecordControlViewController.h"
+
 
 @interface Appitize ()
 
+@property (nonatomic, strong) RecordControlViewController *viewController;
 @property (nonatomic, weak) UIApplication *application;
 
-+ (NSBundle *)frameworkBundle;
+//+ (NSBundle *)frameworkBundle;
 - (void) addTouchOverlayForEvent:(UIEvent*)event;
 
 @end
@@ -74,6 +77,21 @@
 {
     
     UITouch *touch = [event.allTouches anyObject];
+
+    if (self.viewController == nil)
+    {
+        RecordControlViewController *viewController = [[RecordControlViewController alloc] init];
+
+        self.viewController = viewController;
+        
+        id<UIApplicationDelegate> myDelegate = [UIApplication sharedApplication].delegate;
+        UIWindow *window = myDelegate.window;
+        
+//        viewController.view.center = window.center;
+        
+        [window addSubview:self.viewController.view];
+    }
+
     
     if (touch.phase == UITouchPhaseBegan)
     {

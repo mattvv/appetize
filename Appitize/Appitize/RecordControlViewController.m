@@ -7,12 +7,22 @@
 //
 
 #import "RecordControlViewController.h"
+#import "Appitize.h"
 
 @interface RecordControlViewController ()
 
 @end
 
 @implementation RecordControlViewController
+
+- (id)init
+{
+    self = [super initWithNibName:@"RecordControlViewController" bundle:[Appitize frameworkBundle]];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,6 +43,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidUnload {
+    [self setRecordTimeLabel:nil];
+    [self setCloseButton:nil];
+    [self setStartStopRecordButton:nil];
+    [super viewDidUnload];
 }
 
 @end
