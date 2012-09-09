@@ -10,13 +10,13 @@
 #import "MoviePlayer.h"
 
 @implementation RecordCell
-@synthesize name, time, video;
+@synthesize name, time, video, moviePlayer;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        
+        moviePlayer = [[MoviePlayer alloc] init];
     }
     return self;
 }
@@ -29,8 +29,7 @@
 }
 
 - (IBAction)playVideo:(id)sender {
-    MoviePlayer *mp = [[MoviePlayer alloc] init];
-    [mp playVideo:video withView:self.superview.superview.superview];
+    [moviePlayer playVideo:video withView:self.superview.superview.superview];
 }
 
 +(void)_keepAtLinkTime {
