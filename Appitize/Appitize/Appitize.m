@@ -33,27 +33,36 @@
 
 - (void) addTouchOverlayForEvent:(UIEvent*)event
 {
-    UIImage *touchImage = [UIImage imageNamed:@"first"];
-    UIImageView *touchImageView = [[UIImageView alloc] initWithImage:touchImage];
-    
-    id<UIApplicationDelegate> myDelegate = [UIApplication sharedApplication].delegate;
-    UIWindow *window = myDelegate.window;
     
     UITouch *touch = [event.allTouches anyObject];
     
-    CGPoint point = [touch locationInView:window];
-    
-    touchImageView.center = point;
-    touchImageView.alpha = 0;
-    [window addSubview:touchImageView];
-    
-    
-    [UIView animateWithDuration:0.5f
-                     animations:^{
-                         touchImageView.alpha = 1.0;
-                     } completion:^(BOOL finished) {
-                         [touchImageView removeFromSuperview];
-                     }];
+    if (touch.phase == UITouchPhaseBegan)
+    {
+        UIImage *touchImage = [UIImage imageNamed:@"first"];
+        UIImageView *touchImageView = [[UIImageView alloc] initWithImage:touchImage];
+        
+        id<UIApplicationDelegate> myDelegate = [UIApplication sharedApplication].delegate;
+        UIWindow *window = myDelegate.window;
+
+        CGPoint point = [touch locationInView:window];
+        
+        touchImageView.center = point;
+        touchImageView.alpha = 0;
+        [window addSubview:touchImageView];
+        
+        [UIView animateWithDuration:0.25f
+                         animations:^{
+                             touchImageView.alpha = 1.0;
+                         } completion:^(BOOL finished) {
+                             [UIView animateWithDuration:0.25f animations:^{
+                                 touchImageView.alpha = 0.0;
+                             } completion:^(BOOL finished) {
+                                 [touchImageView removeFromSuperview];
+                             }];
+
+                         }];
+        
+    }
 }
 
 
