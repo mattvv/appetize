@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D2C300615FC1BA6004FEF3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2C300515FC1BA6004FEF3B /* Foundation.framework */; };
+		5D2C300B15FC1BA6004FEF3B /* Appitize.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D2C300A15FC1BA6004FEF3B /* Appitize.h */; };
+		5D2C300D15FC1BA6004FEF3B /* Appitize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2C300C15FC1BA6004FEF3B /* Appitize.m */; };
+		5D2C301515FC1BA6004FEF3B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2C301415FC1BA6004FEF3B /* SenTestingKit.framework */; };
+		5D2C301715FC1BA6004FEF3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2C301615FC1BA6004FEF3B /* UIKit.framework */; };
+		5D2C301815FC1BA6004FEF3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2C300515FC1BA6004FEF3B /* Foundation.framework */; };
+		5D2C301B15FC1BA6004FEF3B /* libAppitize.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2C300215FC1BA6004FEF3B /* libAppitize.a */; };
+		5D2C302115FC1BA6004FEF3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D2C301F15FC1BA6004FEF3B /* InfoPlist.strings */; };
+		5D2C302415FC1BA6004FEF3B /* AppitizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2C302315FC1BA6004FEF3B /* AppitizeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D2C301915FC1BA6004FEF3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D2C2FF915FC1BA6004FEF3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D2C300115FC1BA6004FEF3B;
+			remoteInfo = Appitize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D2C300015FC1BA6004FEF3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				5D2C300B15FC1BA6004FEF3B /* Appitize.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D2C300215FC1BA6004FEF3B /* libAppitize.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppitize.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2C300515FC1BA6004FEF3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D2C300915FC1BA6004FEF3B /* Appitize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Appitize-Prefix.pch"; sourceTree = "<group>"; };
+		5D2C300A15FC1BA6004FEF3B /* Appitize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Appitize.h; sourceTree = "<group>"; };
+		5D2C300C15FC1BA6004FEF3B /* Appitize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Appitize.m; sourceTree = "<group>"; };
+		5D2C301315FC1BA6004FEF3B /* AppitizeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppitizeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2C301415FC1BA6004FEF3B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D2C301615FC1BA6004FEF3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D2C301E15FC1BA6004FEF3B /* AppitizeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppitizeTests-Info.plist"; sourceTree = "<group>"; };
+		5D2C302015FC1BA6004FEF3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D2C302215FC1BA6004FEF3B /* AppitizeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppitizeTests.h; sourceTree = "<group>"; };
+		5D2C302315FC1BA6004FEF3B /* AppitizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppitizeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D2C2FFF15FC1BA6004FEF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2C300615FC1BA6004FEF3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2C300F15FC1BA6004FEF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2C301515FC1BA6004FEF3B /* SenTestingKit.framework in Frameworks */,
+				5D2C301715FC1BA6004FEF3B /* UIKit.framework in Frameworks */,
+				5D2C301815FC1BA6004FEF3B /* Foundation.framework in Frameworks */,
+				5D2C301B15FC1BA6004FEF3B /* libAppitize.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D2C2FF715FC1BA6004FEF3B = {
+			isa = PBXGroup;
+			children = (
+				5D2C300715FC1BA6004FEF3B /* Appitize */,
+				5D2C301C15FC1BA6004FEF3B /* AppitizeTests */,
+				5D2C300415FC1BA6004FEF3B /* Frameworks */,
+				5D2C300315FC1BA6004FEF3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D2C300315FC1BA6004FEF3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D2C300215FC1BA6004FEF3B /* libAppitize.a */,
+				5D2C301315FC1BA6004FEF3B /* AppitizeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D2C300415FC1BA6004FEF3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D2C300515FC1BA6004FEF3B /* Foundation.framework */,
+				5D2C301415FC1BA6004FEF3B /* SenTestingKit.framework */,
+				5D2C301615FC1BA6004FEF3B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D2C300715FC1BA6004FEF3B /* Appitize */ = {
+			isa = PBXGroup;
+			children = (
+				5D2C300A15FC1BA6004FEF3B /* Appitize.h */,
+				5D2C300C15FC1BA6004FEF3B /* Appitize.m */,
+				5D2C300815FC1BA6004FEF3B /* Supporting Files */,
+			);
+			path = Appitize;
+			sourceTree = "<group>";
+		};
+		5D2C300815FC1BA6004FEF3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D2C300915FC1BA6004FEF3B /* Appitize-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D2C301C15FC1BA6004FEF3B /* AppitizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D2C302215FC1BA6004FEF3B /* AppitizeTests.h */,
+				5D2C302315FC1BA6004FEF3B /* AppitizeTests.m */,
+				5D2C301D15FC1BA6004FEF3B /* Supporting Files */,
+			);
+			path = AppitizeTests;
+			sourceTree = "<group>";
+		};
+		5D2C301D15FC1BA6004FEF3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D2C301E15FC1BA6004FEF3B /* AppitizeTests-Info.plist */,
+				5D2C301F15FC1BA6004FEF3B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D2C300115FC1BA6004FEF3B /* Appitize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2C302715FC1BA6004FEF3B /* Build configuration list for PBXNativeTarget "Appitize" */;
+			buildPhases = (
+				5D2C2FFE15FC1BA6004FEF3B /* Sources */,
+				5D2C2FFF15FC1BA6004FEF3B /* Frameworks */,
+				5D2C300015FC1BA6004FEF3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Appitize;
+			productName = Appitize;
+			productReference = 5D2C300215FC1BA6004FEF3B /* libAppitize.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5D2C301215FC1BA6004FEF3B /* AppitizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2C302A15FC1BA6004FEF3B /* Build configuration list for PBXNativeTarget "AppitizeTests" */;
+			buildPhases = (
+				5D2C300E15FC1BA6004FEF3B /* Sources */,
+				5D2C300F15FC1BA6004FEF3B /* Frameworks */,
+				5D2C301015FC1BA6004FEF3B /* Resources */,
+				5D2C301115FC1BA6004FEF3B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D2C301A15FC1BA6004FEF3B /* PBXTargetDependency */,
+			);
+			name = AppitizeTests;
+			productName = AppitizeTests;
+			productReference = 5D2C301315FC1BA6004FEF3B /* AppitizeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D2C2FF915FC1BA6004FEF3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Glen Tregoning";
+			};
+			buildConfigurationList = 5D2C2FFC15FC1BA6004FEF3B /* Build configuration list for PBXProject "Appitize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D2C2FF715FC1BA6004FEF3B;
+			productRefGroup = 5D2C300315FC1BA6004FEF3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D2C300115FC1BA6004FEF3B /* Appitize */,
+				5D2C301215FC1BA6004FEF3B /* AppitizeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D2C301015FC1BA6004FEF3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2C302115FC1BA6004FEF3B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D2C301115FC1BA6004FEF3B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D2C2FFE15FC1BA6004FEF3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2C300D15FC1BA6004FEF3B /* Appitize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2C300E15FC1BA6004FEF3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2C302415FC1BA6004FEF3B /* AppitizeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D2C301A15FC1BA6004FEF3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D2C300115FC1BA6004FEF3B /* Appitize */;
+			targetProxy = 5D2C301915FC1BA6004FEF3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D2C301F15FC1BA6004FEF3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D2C302015FC1BA6004FEF3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D2C302515FC1BA6004FEF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D2C302615FC1BA6004FEF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D2C302815FC1BA6004FEF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Appitize.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appitize/Appitize-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5D2C302915FC1BA6004FEF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Appitize.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appitize/Appitize-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5D2C302B15FC1BA6004FEF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appitize/Appitize-Prefix.pch";
+				INFOPLIST_FILE = "AppitizeTests/AppitizeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5D2C302C15FC1BA6004FEF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appitize/Appitize-Prefix.pch";
+				INFOPLIST_FILE = "AppitizeTests/AppitizeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D2C2FFC15FC1BA6004FEF3B /* Build configuration list for PBXProject "Appitize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2C302515FC1BA6004FEF3B /* Debug */,
+				5D2C302615FC1BA6004FEF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D2C302715FC1BA6004FEF3B /* Build configuration list for PBXNativeTarget "Appitize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2C302815FC1BA6004FEF3B /* Debug */,
+				5D2C302915FC1BA6004FEF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D2C302A15FC1BA6004FEF3B /* Build configuration list for PBXNativeTarget "AppitizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2C302B15FC1BA6004FEF3B /* Debug */,
+				5D2C302C15FC1BA6004FEF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D2C2FF915FC1BA6004FEF3B /* Project object */;
+}
