@@ -31,6 +31,7 @@
 		5D5A182F15FC5C1B0058F50F /* finger_press3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182915FC5C1B0058F50F /* finger_press3.png */; };
 		5D5A183015FC5C1B0058F50F /* finger_press3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */; };
 		5DAFFF2E15FC287B0047124F /* Appitize.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAFFF2C15FC287B0047124F /* Appitize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DF5A19F15FC795D0011444E /* RecordControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5A19E15FC795D0011444E /* RecordControlView.xib */; };
 		664A269614E3265400C297E6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664A268414E3222700C297E6 /* CoreFoundation.framework */; };
 		66E8B6D714D899500074EAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8B6D614D899500074EAA4 /* Foundation.framework */; };
 		B255BEEC15FC6AD20068145A /* ScreenRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = B255BEEA15FC6AD20068145A /* ScreenRecorder.h */; };
@@ -72,6 +73,7 @@
 		5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finger_press3@2x.png"; sourceTree = "<group>"; };
 		5DAFFF2B15FC287B0047124F /* Appitize-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Appitize-Prefix.pch"; sourceTree = "<group>"; };
 		5DAFFF2C15FC287B0047124F /* Appitize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appitize.h; sourceTree = "<group>"; };
+		5DF5A19E15FC795D0011444E /* RecordControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordControlView.xib; sourceTree = "<group>"; };
 		664A268414E3222700C297E6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		664A269514E3265400C297E6 /* Appitize.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appitize.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		664A269914E3265400C297E6 /* AppitizeResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppitizeResources-Info.plist"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				5D5A182915FC5C1B0058F50F /* finger_press3.png */,
 				5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */,
 				664A269914E3265400C297E6 /* AppitizeResources-Info.plist */,
+				5DF5A19E15FC795D0011444E /* RecordControlView.xib */,
 			);
 			path = AppitizeResources;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				5D5A182E15FC5C1B0058F50F /* finger_press2@2x.png in Resources */,
 				5D5A182F15FC5C1B0058F50F /* finger_press3.png in Resources */,
 				5D5A183015FC5C1B0058F50F /* finger_press3@2x.png in Resources */,
+				5DF5A19F15FC795D0011444E /* RecordControlView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
