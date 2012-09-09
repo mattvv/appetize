@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "AppDelegate.h"
 
 @interface FirstViewController ()
 
@@ -25,5 +26,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)startRecording:(id)sender {
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate.screenRecorder startRecording];
+}
+- (IBAction)stopRecording:(id)sender {
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate.screenRecorder stopRecording];
+}
+
 
 @end

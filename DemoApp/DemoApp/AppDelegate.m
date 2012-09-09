@@ -10,8 +10,11 @@
 
 @implementation AppDelegate
 
+@synthesize screenRecorder;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    screenRecorder = [[ScreenRecorder alloc] init];
     // Override point for customization after application launch.
     return YES;
 }
