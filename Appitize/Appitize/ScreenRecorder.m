@@ -106,14 +106,16 @@ BOOL recording = NO;
                     
                     Video *video = [[Video alloc]init];
                     video.assetURL = assetURL;
-                    //todo: format video time
                     int minutes = floor(((int)length % (1000*60*60)) / (1000*60));
                     int seconds = floor((((int)length % (1000*60*60)) % (1000*60)) / 1000);
 
-                    if (minutes)
+                    if (minutes) {
                         video.time = [NSString stringWithFormat:@"%d:%d minutes", minutes,seconds];
-                    else
+                        video.mainLength = [NSString stringWithFormat:@"00:%d:%d", minutes,seconds];
+                    } else {
                         video.time = [NSString stringWithFormat:@"0:%d minutes", seconds];
+                        video.mainLength = [NSString stringWithFormat:@"00:00:%d", seconds];
+                    }
                     video.name = [format stringFromDate:startTime];
                     
                     Appitize *appitize = [Appitize sharedEngine];
