@@ -106,11 +106,11 @@
                     int seconds = floor(length - (minutes * 60));
 
                     if (minutes) {
-                        video.time = [NSString stringWithFormat:@"%d:%d minutes", minutes,seconds];
+                        video.time = [NSString stringWithFormat:@"%d.%d minutes", minutes,seconds];
                         video.mainLength = [NSString stringWithFormat:@"00:%d:%d", minutes,seconds];
                     } else {
                         video.time = [NSString stringWithFormat:@"0:%d minutes", seconds];
-                        video.mainLength = [NSString stringWithFormat:@"00:00:%d", seconds];
+                        video.mainLength = [NSString stringWithFormat:@"00.00:%d", seconds];
                     }
                     video.name = [format stringFromDate:startTime];
                     
