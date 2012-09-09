@@ -10,9 +10,10 @@
 
 @interface RecordControlViewController : UIViewController
 
-
 @property (retain, nonatomic) IBOutlet UILabel *recordTimeLabel;
 @property (retain, nonatomic) IBOutlet UIButton *startStopRecordButton;
 @property (retain, nonatomic) IBOutlet UIButton *closeButton;
+- (IBAction)closeButtonPress:(id)sender;
+- (IBAction)startStopRecordButtonPress:(id)sender;
 
 @end
