@@ -15,7 +15,7 @@
 - (void) playVideo: (Video*)video withView: (UIView *)view {
     mMPVC = [[MPMoviePlayerViewController alloc] initWithContentURL:video.assetURL];
     
-    [mMPVC.moviePlayer setControlStyle:MPMovieControlModeDefault];
+    [mMPVC.moviePlayer setControlStyle:MPMovieControlStyleFullscreen];
     [mMPVC.moviePlayer setScalingMode:MPMovieScalingModeAspectFill];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlaybackComplete:)
