@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D3A435015FC69B20080C538 /* Appitize.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A181515FC56890058F50F /* Appitize.bundle */; };
-		5D5A181815FC56E40058F50F /* libAppitize.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5A181315FC56890058F50F /* libAppitize.a */; };
+		5D2470C115FCE9760041232A /* Appetize.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5D2470BC15FCE90B0041232A /* Appetize.bundle */; };
+		5D2470C215FCE9DD0041232A /* libAppetize.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2470BA15FCE90B0041232A /* libAppetize.a */; };
 		5D72332515FC016A00697D97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72332415FC016A00697D97 /* UIKit.framework */; };
 		5D72332715FC016A00697D97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72332615FC016A00697D97 /* Foundation.framework */; };
 		5D72332915FC016A00697D97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72332815FC016A00697D97 /* CoreGraphics.framework */; };
@@ -36,33 +36,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D5A181215FC56890058F50F /* PBXContainerItemProxy */ = {
+		5D2470B915FCE90B0041232A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D5A180915FC56880058F50F /* Appitize.xcodeproj */;
+			containerPortal = 5D5A180915FC56880058F50F /* Appetize.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66E8B6D314D899500074EAA4;
-			remoteInfo = Appitize;
+			remoteInfo = Appetize;
 		};
-		5D5A181415FC56890058F50F /* PBXContainerItemProxy */ = {
+		5D2470BB15FCE90B0041232A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D5A180915FC56880058F50F /* Appitize.xcodeproj */;
+			containerPortal = 5D5A180915FC56880058F50F /* Appetize.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 664A269514E3265400C297E6;
-			remoteInfo = AppitizeResources;
+			remoteInfo = AppetizeResources;
 		};
-		5D5A181615FC56D40058F50F /* PBXContainerItemProxy */ = {
+		5D2470BD15FCE94E0041232A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D5A180915FC56880058F50F /* Appitize.xcodeproj */;
+			containerPortal = 5D5A180915FC56880058F50F /* Appetize.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 66E8B6D214D899500074EAA4;
-			remoteInfo = Appitize;
+			remoteInfo = Appetize;
 		};
-		5D5A183215FC5C6D0058F50F /* PBXContainerItemProxy */ = {
+		5D2470BF15FCE94E0041232A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D5A180915FC56880058F50F /* Appitize.xcodeproj */;
+			containerPortal = 5D5A180915FC56880058F50F /* Appetize.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 664A269414E3265400C297E6;
-			remoteInfo = AppitizeResources;
+			remoteInfo = AppetizeResources;
 		};
 		5D72335115FC016B00697D97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -74,7 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D5A180915FC56880058F50F /* Appitize.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Appitize.xcodeproj; path = ../Appitize/Appitize.xcodeproj; sourceTree = "<group>"; };
+		5D5A180915FC56880058F50F /* Appetize.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Appetize.xcodeproj; path = ../Appetize/Appetize.xcodeproj; sourceTree = "<group>"; };
 		5D72332015FC016A00697D97 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D72332415FC016A00697D97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D72332615FC016A00697D97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,9 +113,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2470C215FCE9DD0041232A /* libAppetize.a in Frameworks */,
 				B29D1C8115FC5FCB004B656F /* MediaPlayer.framework in Frameworks */,
 				B29D1C6E15FC5274004B656F /* AssetsLibrary.framework in Frameworks */,
-				5D5A181815FC56E40058F50F /* libAppitize.a in Frameworks */,
 				B29D1C4215FC2165004B656F /* CoreVideo.framework in Frameworks */,
 				B2434C8D15FC152400613FDF /* CoreMedia.framework in Frameworks */,
 				B2434C8B15FC0FEB00613FDF /* AVFoundation.framework in Frameworks */,
@@ -139,11 +139,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D5A180A15FC56880058F50F /* Products */ = {
+		5D2470B415FCE90B0041232A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D5A181315FC56890058F50F /* libAppitize.a */,
-				5D5A181515FC56890058F50F /* Appitize.bundle */,
+				5D2470BA15FCE90B0041232A /* libAppetize.a */,
+				5D2470BC15FCE90B0041232A /* Appetize.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 		5D72332315FC016A00697D97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5D5A180915FC56880058F50F /* Appitize.xcodeproj */,
+				5D5A180915FC56880058F50F /* Appetize.xcodeproj */,
 				B29D1C8015FC5FCB004B656F /* MediaPlayer.framework */,
 				B29D1C6D15FC5274004B656F /* AssetsLibrary.framework */,
 				B29D1C4115FC2165004B656F /* CoreVideo.framework */,
@@ -248,8 +248,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				5D5A181715FC56D40058F50F /* PBXTargetDependency */,
-				5D5A183315FC5C6D0058F50F /* PBXTargetDependency */,
+				5D2470BE15FCE94E0041232A /* PBXTargetDependency */,
+				5D2470C015FCE94E0041232A /* PBXTargetDependency */,
 			);
 			name = DemoApp;
 			productName = DemoApp;
@@ -296,8 +296,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 5D5A180A15FC56880058F50F /* Products */;
-					ProjectRef = 5D5A180915FC56880058F50F /* Appitize.xcodeproj */;
+					ProductGroup = 5D2470B415FCE90B0041232A /* Products */;
+					ProjectRef = 5D5A180915FC56880058F50F /* Appetize.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -309,18 +309,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		5D5A181315FC56890058F50F /* libAppitize.a */ = {
+		5D2470BA15FCE90B0041232A /* libAppetize.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libAppitize.a;
-			remoteRef = 5D5A181215FC56890058F50F /* PBXContainerItemProxy */;
+			path = libAppetize.a;
+			remoteRef = 5D2470B915FCE90B0041232A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D5A181515FC56890058F50F /* Appitize.bundle */ = {
+		5D2470BC15FCE90B0041232A /* Appetize.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = Appitize.bundle;
-			remoteRef = 5D5A181415FC56890058F50F /* PBXContainerItemProxy */;
+			path = Appetize.bundle;
+			remoteRef = 5D2470BB15FCE90B0041232A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -330,13 +330,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D3A435015FC69B20080C538 /* Appitize.bundle in Resources */,
 				5D72332F15FC016A00697D97 /* InfoPlist.strings in Resources */,
 				5D72333815FC016A00697D97 /* MainStoryboard.storyboard in Resources */,
 				5D72333D15FC016A00697D97 /* first.png in Resources */,
 				5D72333F15FC016B00697D97 /* first@2x.png in Resources */,
 				5D72334415FC016B00697D97 /* second.png in Resources */,
 				5D72334615FC016B00697D97 /* second@2x.png in Resources */,
+				5D2470C115FCE9760041232A /* Appetize.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,15 +389,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5D5A181715FC56D40058F50F /* PBXTargetDependency */ = {
+		5D2470BE15FCE94E0041232A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Appitize;
-			targetProxy = 5D5A181615FC56D40058F50F /* PBXContainerItemProxy */;
+			name = Appetize;
+			targetProxy = 5D2470BD15FCE94E0041232A /* PBXContainerItemProxy */;
 		};
-		5D5A183315FC5C6D0058F50F /* PBXTargetDependency */ = {
+		5D2470C015FCE94E0041232A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AppitizeResources;
-			targetProxy = 5D5A183215FC5C6D0058F50F /* PBXContainerItemProxy */;
+			name = AppetizeResources;
+			targetProxy = 5D2470BF15FCE94E0041232A /* PBXContainerItemProxy */;
 		};
 		5D72335215FC016B00697D97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

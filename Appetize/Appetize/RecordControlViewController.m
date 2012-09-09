@@ -1,13 +1,13 @@
 //
 //  RecordControlViewController.m
-//  Appitize
+//  Appetize
 //
 //  Created by Glen Tregoning on 9/09/12.
 //  Copyright (c) 2012 Google. All rights reserved.
 //
 
 #import "RecordControlViewController.h"
-#import "Appitize.h"
+#import "Appetize.h"
 #import "ScreenRecorder.h"
 #import "RecordCell.h"
 #import "Video.h"
@@ -25,7 +25,7 @@
 
 - (id)init
 {
-    self = [super initWithNibName:@"RecordControlViewController" bundle:[Appitize frameworkBundle]];
+    self = [super initWithNibName:@"RecordControlViewController" bundle:[Appetize frameworkBundle]];
     if (self) {
         // Custom initialization
     }
@@ -72,8 +72,8 @@
 - (void) reloadData
 {
     [recentTableView reloadData];
-    if ([[Appitize sharedEngine].lastVideos count] > 0) {
-        Video *video = [[Appitize sharedEngine].lastVideos lastObject];
+    if ([[Appetize sharedEngine].lastVideos count] > 0) {
+        Video *video = [[Appetize sharedEngine].lastVideos lastObject];
         [self.recordTimeLabel setText:video.mainLength];
     }
 }
@@ -83,7 +83,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSInteger count = [[Appitize sharedEngine].lastVideos count];
+    NSInteger count = [[Appetize sharedEngine].lastVideos count];
     if (count > 4)
         count = 4;
     return count;
@@ -93,10 +93,10 @@
 {
 	RecordCell *cell = (RecordCell*)[tableView dequeueReusableCellWithIdentifier: @"RecordCellIdentifier"];
 	if (cell == nil) {
-		cell = [[[Appitize frameworkBundle] loadNibNamed:@"RecordCell" owner:self options:nil] lastObject];
+		cell = [[[Appetize frameworkBundle] loadNibNamed:@"RecordCell" owner:self options:nil] lastObject];
 	}
     
-    Video *video = [[Appitize sharedEngine].lastVideos objectAtIndex:indexPath.row];
+    Video *video = [[Appetize sharedEngine].lastVideos objectAtIndex:indexPath.row];
     cell.name.text = video.name;
     cell.time.text = video.time;
     cell.video = video;

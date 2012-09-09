@@ -10,8 +10,6 @@
 
 #import "AppDelegate.h"
 
-#import <Appitize/Appitize.h>
-
 int main(int argc, char *argv[])
 {
     @autoreleasepool {

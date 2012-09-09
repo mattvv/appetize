@@ -1,13 +1,13 @@
 
 //
 //  EventCaptureApplication.m
-//  Appitize
+//  Appetize
 //
 //  Created by Glen Tregoning on 8/09/12.
 //  Copyright (c) 2012 Glen Tregoning. All rights reserved.
 //
 
-#import "Appitize.h"
+#import "Appetize.h"
 
 #import <objc/runtime.h>
 
@@ -17,7 +17,7 @@
 #import "RecordCell.h"
 
 
-@interface Appitize ()
+@interface Appetize ()
 
 @property (nonatomic, strong) RecordControlViewController *viewController;
 @property (nonatomic, strong) ScreenRecorder *recorder;
@@ -30,19 +30,19 @@
 
 @end
 
-@interface UIApplication (AppitizeEventRecording)
+@interface UIApplication (AppetizeEventRecording)
 
 - (void) fakeSendEvent:(UIEvent*)event;
 
 @end
 
-@implementation UIApplication (AppitizeEventRecording)
+@implementation UIApplication (AppetizeEventRecording)
 
 - (void) fakeSendEvent:(UIEvent*)event
 {
     //NSLog(@"Event: %@", event);
     
-    [[Appitize sharedEngine] addTouchOverlayForEvent: event];
+    [[Appetize sharedEngine] addTouchOverlayForEvent: event];
 
     // Note this won't endlessly loop as this will have been swizzeled...
     [self fakeSendEvent:event];
@@ -51,22 +51,22 @@
 
 @end
 
-@implementation Appitize
+@implementation Appetize
 
 @synthesize application = _application;
 @synthesize lastVideos;
 
-+ (Appitize *) sharedEngine;
++ (Appetize *) sharedEngine;
 {
-    static Appitize* appitizeEngine = nil;
+    static Appetize* AppetizeEngine = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        appitizeEngine = [[Appitize alloc] init];
+        AppetizeEngine = [[Appetize alloc] init];
         
         //todo: This should be removed.
         [RecordCell _keepAtLinkTime];
     });
-    return appitizeEngine;
+    return AppetizeEngine;
 }
 
 - (void) initializeWithApplication: (UIApplication*) application
@@ -196,7 +196,7 @@
     static dispatch_once_t predicate;
     dispatch_once(&predicate, ^{
         NSString* mainBundlePath = [[NSBundle mainBundle] resourcePath];
-        NSString* frameworkBundlePath = [mainBundlePath stringByAppendingPathComponent:@"Appitize.bundle"];
+        NSString* frameworkBundlePath = [mainBundlePath stringByAppendingPathComponent:@"Appetize.bundle"];
         frameworkBundle = [NSBundle bundleWithPath:frameworkBundlePath];
     });
     return frameworkBundle;
