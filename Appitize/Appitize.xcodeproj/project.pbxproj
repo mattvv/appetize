@@ -60,6 +60,9 @@
 		B29D1C6515FC4684004B656F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C6415FC4684004B656F /* CoreGraphics.framework */; };
 		B29D1C8B15FC6613004B656F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C8A15FC6613004B656F /* MediaPlayer.framework */; };
 		B29D1C8E15FC6624004B656F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C8D15FC6624004B656F /* AssetsLibrary.framework */; };
+		B2D34AFC15FC87A5007AE39A /* RecordCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D34AFA15FC87A5007AE39A /* RecordCell.h */; };
+		B2D34AFD15FC87A5007AE39A /* RecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D34AFB15FC87A5007AE39A /* RecordCell.m */; };
+		B2D34B1515FC88D2007AE39A /* RecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2D34B1415FC88D2007AE39A /* RecordCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +124,9 @@
 		B29D1C6415FC4684004B656F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B29D1C8A15FC6613004B656F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		B29D1C8D15FC6624004B656F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B2D34AFA15FC87A5007AE39A /* RecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordCell.h; sourceTree = "<group>"; };
+		B2D34AFB15FC87A5007AE39A /* RecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordCell.m; sourceTree = "<group>"; };
+		B2D34B1415FC88D2007AE39A /* RecordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +178,7 @@
 				5D5A182A15FC5C1B0058F50F /* finger_press3@2x.png */,
 				664A269914E3265400C297E6 /* AppitizeResources-Info.plist */,
 				5DF5A19E15FC795D0011444E /* RecordControlViewController.xib */,
+				B2D34B1415FC88D2007AE39A /* RecordCell.xib */,
 			);
 			path = AppitizeResources;
 			sourceTree = "<group>";
@@ -215,6 +222,7 @@
 		66E8B6D814D899500074EAA4 /* Appitize */ = {
 			isa = PBXGroup;
 			children = (
+				B2D34AD815FC865C007AE39A /* Cells */,
 				B255BEEA15FC6AD20068145A /* ScreenRecorder.h */,
 				B255BEEB15FC6AD20068145A /* ScreenRecorder.m */,
 				5DAFFF2B15FC287B0047124F /* Appitize-Prefix.pch */,
@@ -230,6 +238,15 @@
 			path = Appitize;
 			sourceTree = "<group>";
 		};
+		B2D34AD815FC865C007AE39A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B2D34AFA15FC87A5007AE39A /* RecordCell.h */,
+				B2D34AFB15FC87A5007AE39A /* RecordCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -242,6 +259,7 @@
 				B255BEF015FC6EE80068145A /* Video.h in Headers */,
 				B255BEF415FC6FB50068145A /* MoviePlayer.h in Headers */,
 				5DF5A1AD15FC7DB70011444E /* RecordControlViewController.h in Headers */,
+				B2D34AFC15FC87A5007AE39A /* RecordCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +351,7 @@
 				B255BF1115FC79A70068145A /* popup_background@2x.png in Resources */,
 				B255BF1215FC79A70068145A /* start_recording.png in Resources */,
 				B255BF1315FC79A70068145A /* start_recording@2x.png in Resources */,
+				B2D34B1515FC88D2007AE39A /* RecordCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +405,7 @@
 				B255BEF115FC6EE80068145A /* Video.m in Sources */,
 				B255BEF515FC6FB50068145A /* MoviePlayer.m in Sources */,
 				5DF5A1AE15FC7DB70011444E /* RecordControlViewController.m in Sources */,
+				B2D34AFD15FC87A5007AE39A /* RecordCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

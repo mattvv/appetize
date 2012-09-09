@@ -23,7 +23,7 @@
 @property (nonatomic, assign, readonly) BOOL recording;
 
 - (void)startRecording;
-- (void)stopRecording:(UIView*)view;
+- (void)stopRecording;
 - (void)addImage;
 
 @end

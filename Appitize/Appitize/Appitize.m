@@ -13,6 +13,8 @@
 
 #import "RecordControlViewController.h"
 #import "ScreenRecorder.h"
+#import "Video.h"
+
 
 @interface Appitize ()
 
@@ -64,6 +66,7 @@
 - (void) initializeWithApplication: (UIApplication*) application
 {
     self.application = application;
+    lastVideos = [[NSMutableArray alloc]init];
     
     NSLog(@"initializeWithApplication:%@", application);
     Method myReplacementMethod =
@@ -74,6 +77,11 @@
     NSLog(@"Events Hooked up!");
     
     self.recorder = [[ScreenRecorder alloc] init];
+
+    Video *video = [[Video alloc]init];
+    video.name = @"Sept 8, 2012, 8:42PM";
+    video.time = @"2:52 minutes";
+    
 }
 
 - (void) addTouchOverlayForEvent:(UIEvent*)event

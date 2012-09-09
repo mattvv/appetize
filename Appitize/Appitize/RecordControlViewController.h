@@ -10,13 +10,14 @@
 
 @class ScreenRecorder;
 
-@interface RecordControlViewController : UIViewController
+@interface RecordControlViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) ScreenRecorder* recorder;
 
-@property (strong, nonatomic) IBOutlet UILabel *recordTimeLabel;
-@property (strong, nonatomic) IBOutlet UIButton *startStopRecordButton;
-@property (strong, nonatomic) IBOutlet UIButton *closeButton;
+@property (retain, nonatomic) IBOutlet UILabel *recordTimeLabel;
+@property (retain, nonatomic) IBOutlet UIButton *startStopRecordButton;
+@property (retain, nonatomic) IBOutlet UIButton *closeButton;
+@property (retain, nonatomic) IBOutlet UITableView *recentTableView;
 
 - (IBAction)closeButtonPress:(id)sender;
 - (IBAction)startStopRecordButtonPress:(id)sender;

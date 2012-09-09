@@ -29,7 +29,7 @@
 - (void)startRecording {
     time = 0;
     if (recording)
-        [self stopRecording:nil];
+        [self stopRecording];
     
     recording = YES;
     startTime = [NSDate date];
@@ -64,7 +64,7 @@
     time += 30; //todo: calculate this per interval
 }
 
-- (void)stopRecording: (UIView *)view {
+- (void)stopRecording {
     if (!recording)
         return;
     
@@ -77,13 +77,13 @@
         [writerInput markAsFinished];
         [videoWriter finishWriting];
         dispatch_async(dispatch_get_main_queue(), ^{
-            [self saveToPhotoAlbumn: view];
+            [self saveToPhotoAlbumn];
         });
         
     });
 }
 
-- (void)saveToPhotoAlbumn:(UIView*) view {
+- (void)saveToPhotoAlbumn {
     ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
     NSURL *outputURL = [NSURL URLWithString:fileURL];
     if ([library videoAtPathIsCompatibleWithSavedPhotosAlbum:outputURL]) {
@@ -94,9 +94,6 @@
                                                                    delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
                     [alert show];
                 } else {
-                    if (view == nil)
-                        return;
-                    
                     NSDate *endTime = [NSDate date];
                     NSTimeInterval length = [endTime timeIntervalSinceDate:startTime];
                     
