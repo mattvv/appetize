@@ -11,11 +11,19 @@
 
 #import <objc/runtime.h>
 
+
+@interface Appitize ()
+
+@property (nonatomic, weak) UIApplication *application;
+
++ (NSBundle *)frameworkBundle;
+- (void) addTouchOverlayForEvent:(UIEvent*)event;
+
+@end
+
 @interface UIApplication (AppitizeEventRecording)
 
 - (void) fakeSendEvent:(UIEvent*)event;
-
-- (void) addTouchOverlayForEvent:(UIEvent*)event;
 
 @end
 
@@ -23,55 +31,14 @@
 
 - (void) fakeSendEvent:(UIEvent*)event
 {
-    NSLog(@"Event: %@", event);
+    //NSLog(@"Event: %@", event);
     
-    [self addTouchOverlayForEvent: event];
+    [[Appitize sharedEngine] addTouchOverlayForEvent: event];
 
     // Note this won't endlessly loop as this will have been swizzeled...
     [self fakeSendEvent:event];
 }
 
-- (void) addTouchOverlayForEvent:(UIEvent*)event
-{
-    
-    UITouch *touch = [event.allTouches anyObject];
-    
-    if (touch.phase == UITouchPhaseBegan)
-    {
-        UIImage *touchImage = [UIImage imageNamed:@"first"];
-        UIImageView *touchImageView = [[UIImageView alloc] initWithImage:touchImage];
-        
-        id<UIApplicationDelegate> myDelegate = [UIApplication sharedApplication].delegate;
-        UIWindow *window = myDelegate.window;
-
-        CGPoint point = [touch locationInView:window];
-        
-        touchImageView.center = point;
-        touchImageView.alpha = 0;
-        [window addSubview:touchImageView];
-        
-        [UIView animateWithDuration:0.25f
-                         animations:^{
-                             touchImageView.alpha = 1.0;
-                         } completion:^(BOOL finished) {
-                             [UIView animateWithDuration:0.25f animations:^{
-                                 touchImageView.alpha = 0.0;
-                             } completion:^(BOOL finished) {
-                                 [touchImageView removeFromSuperview];
-                             }];
-
-                         }];
-        
-    }
-}
-
-
-@end
-
-
-@interface Appitize ()
-
-@property (nonatomic, weak) UIApplication *application;
 
 @end
 
@@ -102,5 +69,79 @@
     method_exchangeImplementations(myReplacementMethod, applicationSendEvent);
     NSLog(@"Events Hooked up!");
 }
+
+- (void) addTouchOverlayForEvent:(UIEvent*)event
+{
+    
+    UITouch *touch = [event.allTouches anyObject];
+    
+    if (touch.phase == UITouchPhaseBegan)
+    {
+        UIImage *touchDownImage = [UIImage imageWithContentsOfFile:[[[self class] frameworkBundle] pathForResource:@"finger_press1" ofType:@"png"]];
+        UIImage *touchRipple1Image = [UIImage imageWithContentsOfFile:[[[self class] frameworkBundle] pathForResource:@"finger_press2" ofType:@"png"]];
+        UIImage *touchRipple2Image = [UIImage imageWithContentsOfFile:[[[self class] frameworkBundle] pathForResource:@"finger_press3" ofType:@"png"]];
+        if (touchDownImage && touchRipple1Image && touchRipple2Image)
+        {
+            UIImageView *touchDownImageView = [[UIImageView alloc] initWithImage:touchDownImage];
+            UIImageView *touchRipple1ImageView = [[UIImageView alloc] initWithImage:touchRipple1Image];
+            UIImageView *touchRipple2ImageView = [[UIImageView alloc] initWithImage:touchRipple2Image];
+            
+            NSArray *imageViews = @[touchDownImageView, touchRipple1ImageView, touchRipple2ImageView];
+
+            id<UIApplicationDelegate> myDelegate = [UIApplication sharedApplication].delegate;
+            UIWindow *window = myDelegate.window;
+            CGPoint point = [touch locationInView:window];
+            
+            for (UIImageView *imageView in imageViews)
+            {
+                imageView.center = point;
+                imageView.alpha = 0;
+                [window addSubview:imageView];
+            }
+            
+            const float AnimationInterval = 0.0875f;
+            [UIView animateWithDuration:AnimationInterval
+                             animations:^{
+                                 touchDownImageView.alpha = 1.0;
+                                 touchRipple1ImageView.alpha = 0.1;
+                             } completion:^(BOOL finished) {
+                                 [UIView animateWithDuration:AnimationInterval animations:^{
+                                     touchDownImageView.alpha = 0.0;
+                                     touchRipple1ImageView.alpha = 1.0;
+                                     touchRipple2ImageView.alpha = 0.1;
+                                 } completion:^(BOOL finished) {
+                                     [UIView animateWithDuration:AnimationInterval animations:^{
+                                         touchDownImageView.alpha = 0.0;
+                                         touchRipple1ImageView.alpha = 0.0;
+                                         touchRipple2ImageView.alpha = 1.0;
+                                     } completion:^(BOOL finished) {
+                                         for (UIImageView *imageView in imageViews)
+                                         {
+                                             [imageView removeFromSuperview];
+                                         }
+                                     }];
+                                 }];
+                             }];
+        }
+        else
+        {
+            NSLog(@"WARNING: You haven't configured your bundle correctly. Please see http://appetize.co for details!");
+        }
+    }
+}
+
+// Load the framework bundle.
++ (NSBundle *)frameworkBundle
+{
+    static NSBundle* frameworkBundle = nil;
+    static dispatch_once_t predicate;
+    dispatch_once(&predicate, ^{
+        NSString* mainBundlePath = [[NSBundle mainBundle] resourcePath];
+        NSString* frameworkBundlePath = [mainBundlePath stringByAppendingPathComponent:@"Appitize.bundle"];
+        frameworkBundle = [NSBundle bundleWithPath:frameworkBundlePath];
+    });
+    return frameworkBundle;
+}
+
 
 @end
