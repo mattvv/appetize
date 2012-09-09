@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D5A181815FC56E40058F50F /* libAppitize.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5A181315FC56890058F50F /* libAppitize.a */; };
 		5D72332515FC016A00697D97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72332415FC016A00697D97 /* UIKit.framework */; };
 		5D72332715FC016A00697D97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72332615FC016A00697D97 /* Foundation.framework */; };
 		5D72332915FC016A00697D97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72332815FC016A00697D97 /* CoreGraphics.framework */; };
@@ -25,7 +26,6 @@
 		5D72335015FC016B00697D97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72332615FC016A00697D97 /* Foundation.framework */; };
 		5D72335815FC016B00697D97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D72335615FC016B00697D97 /* InfoPlist.strings */; };
 		5D72335B15FC016B00697D97 /* DemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72335A15FC016B00697D97 /* DemoAppTests.m */; };
-		5DAFFF4A15FC31570047124F /* Appitize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFFF4915FC31570047124F /* Appitize.framework */; };
 		B2434C8615FC0F4200613FDF /* ScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B2434C8515FC0F4200613FDF /* ScreenRecorder.m */; };
 		B2434C8915FC0FC000613FDF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2434C8815FC0FC000613FDF /* QuartzCore.framework */; };
 		B2434C8B15FC0FEB00613FDF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2434C8A15FC0FEB00613FDF /* AVFoundation.framework */; };
@@ -36,6 +36,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5D5A181215FC56890058F50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5A180915FC56880058F50F /* Appitize.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 66E8B6D314D899500074EAA4;
+			remoteInfo = Appitize;
+		};
+		5D5A181415FC56890058F50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5A180915FC56880058F50F /* Appitize.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 664A269514E3265400C297E6;
+			remoteInfo = AppitizeResources;
+		};
+		5D5A181615FC56D40058F50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5A180915FC56880058F50F /* Appitize.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E8B6D214D899500074EAA4;
+			remoteInfo = Appitize;
+		};
 		5D72335115FC016B00697D97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5D72331715FC016A00697D97 /* Project object */;
@@ -46,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D5A180915FC56880058F50F /* Appitize.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Appitize.xcodeproj; path = ../Appitize/Appitize.xcodeproj; sourceTree = "<group>"; };
 		5D72332015FC016A00697D97 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D72332415FC016A00697D97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D72332615FC016A00697D97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,7 +93,6 @@
 		5D72335715FC016B00697D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D72335915FC016B00697D97 /* DemoAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppTests.h; sourceTree = "<group>"; };
 		5D72335A15FC016B00697D97 /* DemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppTests.m; sourceTree = "<group>"; };
-		5DAFFF4915FC31570047124F /* Appitize.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appitize.framework; sourceTree = "<group>"; };
 		B2434C8415FC0F4200613FDF /* ScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenRecorder.h; sourceTree = "<group>"; };
 		B2434C8515FC0F4200613FDF /* ScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenRecorder.m; sourceTree = "<group>"; };
 		B2434C8815FC0FC000613FDF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -89,6 +110,7 @@
 			files = (
 				B29D1C8115FC5FCB004B656F /* MediaPlayer.framework in Frameworks */,
 				B29D1C6E15FC5274004B656F /* AssetsLibrary.framework in Frameworks */,
+				5D5A181815FC56E40058F50F /* libAppitize.a in Frameworks */,
 				B29D1C4215FC2165004B656F /* CoreVideo.framework in Frameworks */,
 				B2434C8D15FC152400613FDF /* CoreMedia.framework in Frameworks */,
 				B2434C8B15FC0FEB00613FDF /* AVFoundation.framework in Frameworks */,
@@ -96,7 +118,6 @@
 				5D72332515FC016A00697D97 /* UIKit.framework in Frameworks */,
 				5D72332715FC016A00697D97 /* Foundation.framework in Frameworks */,
 				5D72332915FC016A00697D97 /* CoreGraphics.framework in Frameworks */,
-				5DAFFF4A15FC31570047124F /* Appitize.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D5A180A15FC56880058F50F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5A181315FC56890058F50F /* libAppitize.a */,
+				5D5A181515FC56890058F50F /* Appitize.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5D72331515FC016A00697D97 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +168,7 @@
 				B29D1C8015FC5FCB004B656F /* MediaPlayer.framework */,
 				B29D1C6D15FC5274004B656F /* AssetsLibrary.framework */,
 				5DAFFF4915FC31570047124F /* Appitize.framework */,
+				5D5A180915FC56880058F50F /* Appitize.xcodeproj */,
 				B29D1C4115FC2165004B656F /* CoreVideo.framework */,
 				B2434C8C15FC152400613FDF /* CoreMedia.framework */,
 				B2434C8A15FC0FEB00613FDF /* AVFoundation.framework */,
@@ -215,6 +246,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5D5A181715FC56D40058F50F /* PBXTargetDependency */,
 			);
 			name = DemoApp;
 			productName = DemoApp;
@@ -259,6 +291,12 @@
 			mainGroup = 5D72331515FC016A00697D97;
 			productRefGroup = 5D72332115FC016A00697D97 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5D5A180A15FC56880058F50F /* Products */;
+					ProjectRef = 5D5A180915FC56880058F50F /* Appitize.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5D72331F15FC016A00697D97 /* DemoApp */,
@@ -266,6 +304,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5D5A181315FC56890058F50F /* libAppitize.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppitize.a;
+			remoteRef = 5D5A181215FC56890058F50F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D5A181515FC56890058F50F /* Appitize.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Appitize.bundle;
+			remoteRef = 5D5A181415FC56890058F50F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5D72331E15FC016A00697D97 /* Resources */ = {
@@ -331,6 +386,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5D5A181715FC56D40058F50F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Appitize;
+			targetProxy = 5D5A181615FC56D40058F50F /* PBXContainerItemProxy */;
+		};
 		5D72335215FC016B00697D97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5D72331F15FC016A00697D97 /* DemoApp */;

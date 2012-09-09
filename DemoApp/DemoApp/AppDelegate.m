@@ -8,14 +8,19 @@
 
 #import "AppDelegate.h"
 
+#import <Appitize/Appitize.h>
+
 @implementation AppDelegate
 
 @synthesize screenRecorder;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[Appitize sharedEngine] initializeWithApplication: application];
+
     screenRecorder = [[ScreenRecorder alloc] init];
     // Override point for customization after application launch.
+    
     return YES;
 }
 							
