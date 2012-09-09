@@ -35,6 +35,10 @@
 		66E8B6D714D899500074EAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8B6D614D899500074EAA4 /* Foundation.framework */; };
 		B255BEEC15FC6AD20068145A /* ScreenRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = B255BEEA15FC6AD20068145A /* ScreenRecorder.h */; };
 		B255BEED15FC6AD20068145A /* ScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B255BEEB15FC6AD20068145A /* ScreenRecorder.m */; };
+		B255BEF015FC6EE80068145A /* Video.h in Headers */ = {isa = PBXBuildFile; fileRef = B255BEEE15FC6EE80068145A /* Video.h */; };
+		B255BEF115FC6EE80068145A /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = B255BEEF15FC6EE80068145A /* Video.m */; };
+		B255BEF415FC6FB50068145A /* MoviePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B255BEF215FC6FB50068145A /* MoviePlayer.h */; };
+		B255BEF515FC6FB50068145A /* MoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B255BEF315FC6FB50068145A /* MoviePlayer.m */; };
 		B29D1C5B15FC4622004B656F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C5A15FC4622004B656F /* UIKit.framework */; };
 		B29D1C5D15FC463B004B656F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C5C15FC463B004B656F /* QuartzCore.framework */; };
 		B29D1C5F15FC463E004B656F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29D1C5E15FC463E004B656F /* AVFoundation.framework */; };
@@ -79,6 +83,10 @@
 		66E8B6D614D899500074EAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B255BEEA15FC6AD20068145A /* ScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenRecorder.h; sourceTree = "<group>"; };
 		B255BEEB15FC6AD20068145A /* ScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenRecorder.m; sourceTree = "<group>"; };
+		B255BEEE15FC6EE80068145A /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		B255BEEF15FC6EE80068145A /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		B255BEF215FC6FB50068145A /* MoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayer.h; sourceTree = "<group>"; };
+		B255BEF315FC6FB50068145A /* MoviePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayer.m; sourceTree = "<group>"; };
 		B29D1C5A15FC4622004B656F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B29D1C5C15FC463B004B656F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B29D1C5E15FC463E004B656F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -175,6 +183,10 @@
 				5DAFFF2B15FC287B0047124F /* Appitize-Prefix.pch */,
 				5DAFFF2C15FC287B0047124F /* Appitize.h */,
 				5D5A180615FC55990058F50F /* Appitize.m */,
+				B255BEEE15FC6EE80068145A /* Video.h */,
+				B255BEEF15FC6EE80068145A /* Video.m */,
+				B255BEF215FC6FB50068145A /* MoviePlayer.h */,
+				B255BEF315FC6FB50068145A /* MoviePlayer.m */,
 			);
 			path = Appitize;
 			sourceTree = "<group>";
@@ -188,6 +200,8 @@
 			files = (
 				5DAFFF2E15FC287B0047124F /* Appitize.h in Headers */,
 				B255BEEC15FC6AD20068145A /* ScreenRecorder.h in Headers */,
+				B255BEF015FC6EE80068145A /* Video.h in Headers */,
+				B255BEF415FC6FB50068145A /* MoviePlayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +332,8 @@
 			files = (
 				5D5A180715FC55990058F50F /* Appitize.m in Sources */,
 				B255BEED15FC6AD20068145A /* ScreenRecorder.m in Sources */,
+				B255BEF115FC6EE80068145A /* Video.m in Sources */,
+				B255BEF515FC6FB50068145A /* MoviePlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
