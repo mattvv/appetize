@@ -22,4 +22,6 @@
 - (IBAction)closeButtonPress:(id)sender;
 - (IBAction)startStopRecordButtonPress:(id)sender;
 
+- (void) reloadData;
+
 @end
